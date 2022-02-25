@@ -20,5 +20,5 @@ You can install the development version from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("britishredcrosssociety/demographr")
+devtools::install_github("humaniverse/demographr")
 ```
