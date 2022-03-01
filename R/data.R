@@ -45,6 +45,23 @@
 #' @source \url{https://geoportal.statistics.gov.uk/}
 "lookup_lad_counties_21"
 
+#' Lower Layer Super Output Area (2011) to LAD (December 2021) Lookup
+#'
+#' A data set containing a lookup between 2011 Lower Super Output Areas (LSOA)
+#' and 2021 Local Authority Districts (LAD).
+#'
+#' @format A data frame of class "tbl" with 34,753 rows and 4 variables:
+#' \describe{
+#'   \item{lsoa_name}{LSOA name}
+#'   \item{lsoa_code}{LSOA code}
+#'   \item{lad_name}{LAD name}
+#'   \item{lad_code}{LAD code}
+#'   ...
+#' }
+#' @source \url{https://geoportal.statistics.gov.uk/}
+"lookup_lsoa_lad_21"
+
+
 #' Middle Layer Super Output Area (2011) to LAD (December 2019) Lookup
 #'
 #' A data set containing a lookup between 2011 Middle Super Output Areas (MSOA)
