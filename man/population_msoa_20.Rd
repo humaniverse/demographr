@@ -10,7 +10,7 @@ A data frame of class "tbl" with 7,201 rows and 94 variables:
 \item{msoa_name}{MSOA name}
 \item{msoa_code}{MSOA code}
 \item{total_population}{Total number of people living in each MSOA}
-\item{\code{0}:\verb{90\\\\+}}{Number of people in each single age group}
+\item{\code{0}:\verb{90+}}{Number of people in each single age group}
 ...
 }
 }

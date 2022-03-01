@@ -45,6 +45,55 @@
 #' @source \url{https://geoportal.statistics.gov.uk/}
 "lookup_lad_counties_21"
 
+#' Middle Layer Super Output Area (2011) to LAD (December 2019) Lookup
+#'
+#' A data set containing a lookup between 2011 Middle Super Output Areas (MSOA)
+#' and 2019 Local Authority Districts (LAD).
+#'
+#' @format A data frame of class "tbl" with 7,201 rows and 4 variables:
+#' \describe{
+#'   \item{msoa_name}{MSOA name}
+#'   \item{msoa_code}{MSOA code}
+#'   \item{lad_name}{LAD name}
+#'   \item{lad_code}{LAD code}
+#'   ...
+#' }
+#' @source \url{https://geoportal.statistics.gov.uk/}
+"lookup_msoa_lad_19"
+
+#' Middle Layer Super Output Area (2011) to LAD (December 2020) Lookup
+#'
+#' A data set containing a lookup between 2011 Middle Super Output Areas (MSOA)
+#' and 2020 Local Authority Districts (LAD).
+#'
+#' @format A data frame of class "tbl" with 7,201 rows and 4 variables:
+#' \describe{
+#'   \item{msoa_name}{MSOA name}
+#'   \item{msoa_code}{MSOA code}
+#'   \item{lad_name}{LAD name}
+#'   \item{lad_code}{LAD code}
+#'   ...
+#' }
+#' @source \url{https://geoportal.statistics.gov.uk/}
+"lookup_msoa_lad_20"
+
+#' Middle Layer Super Output Area (2011) to LAD (December 2021) Lookup
+#'
+#' A data set containing a lookup between 2011 Middle Super Output Areas (MSOA)
+#' and 2021 Local Authority Districts (LAD).
+#'
+#' @format A data frame of class "tbl" with 7,201 rows and 4 variables:
+#' \describe{
+#'   \item{msoa_name}{MSOA name}
+#'   \item{msoa_code}{MSOA code}
+#'   \item{lad_name}{LAD name}
+#'   \item{lad_code}{LAD code}
+#'   ...
+#' }
+#' @source \url{https://geoportal.statistics.gov.uk/}
+"lookup_msoa_lad_21"
+
+
 #' Population estimates for Counties and Unitary Authorities (mid-2019 with 2019 codes)
 #'
 #' A data set containing mid-2019 population estimates for County and Unitary
