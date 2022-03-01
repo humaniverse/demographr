@@ -1,7 +1,8 @@
 # ---- Load ----
 library(tidyverse)
 library(devtools)
-library(sf)
+library(httr)
+library(readxl)
 
 # Load package
 load_all(".")
@@ -12,8 +13,12 @@ query_url <-
   filter(id == "msoa_lad_21") |>
   pull(query)
 
-msoa_lad <-
-  read_sf(query_url)
+GET(
+  query_url,
+  write_disk(tf <- tempfile(fileext = ".xlsx"))
+)
+
+msoa_lad <- read_excel(tf)
 
 # Select and rename vars
 msoa_lad <-

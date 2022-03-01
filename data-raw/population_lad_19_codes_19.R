@@ -9,7 +9,7 @@ load_all(".")
 
 # List of valid 2019 LAD codes for England and Wales
 lad_codes_eng_wal <-
-  lookup_lad_counties_19 %>%
+  lookup_lad_counties_19 |>
   distinct(lad_name, lad_code)
 
 # Set query url
@@ -32,11 +32,11 @@ pop <-
 
 # Valid pop for England and Wales
 pop_eng_wal <-
-  pop %>%
-  rename(lad_code = Code) %>%
+  pop |>
+  rename(lad_code = Code) |>
   inner_join(lad_codes_eng_wal, by = c("lad_code")) |>
-  relocate(lad_name, .after = lad_code) %>%
-  select(-Name, -Geography1) %>%
+  relocate(lad_name, .after = lad_code) |>
+  select(-Name, -Geography1) |>
   rename(total_population = `All ages`)
 
 # To get valid 2020 codes for Scot and NI an bind

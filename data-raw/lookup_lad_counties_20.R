@@ -9,15 +9,15 @@ load_all(".")
 
 # Set query url
 query_url <-
-  query_urls %>%
-  filter(id == "lad_counties_20") %>%
+  query_urls |>
+  filter(id == "lad_counties_20") |>
   pull(query)
 
 lad_counties <-
   read_sf(query_url)
 
 lad_counties <-
-  lad_counties %>%
+  lad_counties |>
   select(
     lad_name = LTLA20NM,
     lad_code = LTLA20CD,

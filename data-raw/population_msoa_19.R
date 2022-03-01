@@ -29,7 +29,8 @@ dir.create(unzip_dir)
 unzip(tf, exdir = unzip_dir)
 
 msoa_pop <- read_excel(file.path(unzip_dir, "SAPE22DT4-mid-2019-msoa-syoa-estimates-unformatted.xlsx"),
-                       sheet = "Mid-2019 Persons", skip = 4)
+                       sheet = "Mid-2019 Persons", 
+                       skip = 4)
 
 # Select and rename vars
 msoa_pop <-

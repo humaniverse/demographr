@@ -19,9 +19,10 @@ GET(
   write_disk(tf <- tempfile(fileext = ".xlsx"))
 )
 
-lsoa_pop <- read_excel(tf, 
-                       sheet = "Mid-2020 Persons",
-                       skip = 4)
+lsoa_pop <- read_excel(tf,
+  sheet = "Mid-2020 Persons",
+  skip = 4
+)
 
 # Select and rename vars
 lsoa_pop <-
@@ -39,5 +40,3 @@ population_lsoa_20 <- lsoa_pop
 
 # Save output to data/ folder
 usethis::use_data(population_lsoa_20, overwrite = TRUE)
-
-unlink(tf); rm(tf)
