@@ -174,6 +174,20 @@
 #' @source \url{https://ons.gov.uk/}
 "population_counties_ua_20_codes_20"
 
+#' Population estimates for Data Zones in Scotland (2020 estimates)
+#'
+#' A data set containing 2020 population estimates by age and sex for Data Zones in Scotland.
+#'
+#' @format A data frame of class "tbl" with 20,928 rows and 94 variables:
+#' \describe{
+#'   \item{dz_code}{Data Zone code}
+#'   \item{total_population}{Total number of people living in each DZ}
+#'   \item{sex}{'Female', 'Male' or 'All'}
+#'   \item{`0`:`90+`}{Number of people in each single age group}
+#'   ...
+#' }
+#' @source \url{https://www.opendata.nhs.scot/}
+"population_dz_20"
 
 #' Population estimates for Local Authority Districts (mid-2019 with 2019 codes)
 #'
