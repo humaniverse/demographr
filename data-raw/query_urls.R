@@ -28,6 +28,8 @@ query_urls <-
     "lookup", "msoa_lad_20", "30.11.20", "OGLv3", "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/MSOA11_WD20_LAD20_EW_LU/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json", "https://geoportal.statistics.gov.uk/datasets/ons::middle-layer-super-output-area-2011-to-ward-to-lad-december-2020-lookup-in-england-and-wales/about",
     "lookup", "msoa_lad_21", "25.11.21", "OGLv3", "https://www.arcgis.com/sharing/rest/content/items/b4c0247ef8564d419bdeb1eda13f2d0f/data" , "https://geoportal.statistics.gov.uk/documents/middle-layer-super-output-area-2011-to-ward-to-lad-december-2021-lookup-in-england-and-wales/about",
     "lookup", "lsoa_lad_21", "25.11.21", "OGLv3", "https://www.arcgis.com/sharing/rest/content/items/81bcefcd048e43acb948ad069c5e06c0/data", "https://geoportal.statistics.gov.uk/documents/ons::lower-layer-super-output-area-2011-to-ward-2021-to-lad-2021-lookup-in-england-and-wales/about",
-    "lookup", "lsoa_msoa", "03.08.18", "OGLv3", "https://opendata.arcgis.com/datasets/fe6c55f0924b4734adf1cf7104a0173e_0.csv", "http://geoportal.statistics.gov.uk/datasets/fe6c55f0924b4734adf1cf7104a0173e_0")
+    "lookup", "lsoa_msoa", "03.08.18", "OGLv3", "https://opendata.arcgis.com/datasets/fe6c55f0924b4734adf1cf7104a0173e_0.csv", "http://geoportal.statistics.gov.uk/datasets/fe6c55f0924b4734adf1cf7104a0173e_0",
+    "lookup", "postcode_oa_lsoa_msoa_lad_20", "23.11.20", "OGLv3", "https://www.arcgis.com/sharing/rest/content/items/9f629cd0c2fb42beb0d79a474fee4776/data", "https://geoportal.statistics.gov.uk/datasets/9f629cd0c2fb42beb0d79a474fee4776/about",
+)
 
 usethis::use_data(query_urls, internal = TRUE, overwrite = TRUE)

@@ -124,6 +124,25 @@
 #' @source \url{https://geoportal.statistics.gov.uk/}
 "lookup_msoa_lad_21"
 
+#' Postcode to Output Area (2011) to Lower Layer Super Output Area (2011) to
+#'   Middle Layer Super Output Area (2011) to Local Authority District (2020)
+#'   Lookup
+#'
+#' A data set containing a lookup between postcodes, OAs, LSOAs, MSOAs, and
+#' 2020 Local Authority Districts, for England, Wales, and Scotland.
+#'
+#' @format A data frame of class "tbl" with 2,568,780 rows and 5 variables:
+#' \describe{
+#'   \item{postcode}{Postcodes}
+#'   \item{oa_code}{OA code}
+#'   \item{lsoa_code}{LSOA code}
+#'   \item{msoa_code}{MSOA code}
+#'   \item{lad_code}{LAD code}
+#'   ...
+#' }
+#' @source \url{https://geoportal.statistics.gov.uk/}
+"lookup_postcode_oa_lsoa_msoa_lad_20"
+
 
 #' Population estimates for Counties and Unitary Authorities (mid-2019 with 2019 codes)
 #'
