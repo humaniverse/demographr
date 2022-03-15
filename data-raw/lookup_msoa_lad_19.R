@@ -19,10 +19,10 @@ msoa_lad <-
 msoa_lad <-
   msoa_lad |>
   select(
-    msoa_name = MSOA11NM,
-    msoa_code = MSOA11CD,
-    lad_name = LAD19NM,
-    lad_code = LAD19CD
+    msoa_11_name = MSOA11NM,
+    msoa_11_code = MSOA11CD,
+    lad_19_name = LAD19NM,
+    lad_19_code = LAD19CD
   )
 
 # Rename

@@ -30,10 +30,10 @@ postcode_oa_lsoa_msoa_lad <-
   postcodes |>
   select(
     postcode = pcds,
-    oa_code = oa11cd,
-    lsoa_code = lsoa11cd,
-    msoa_code = msoa11cd,
-    lad_code = ladcd
+    oa_11_code = oa11cd,
+    lsoa_11_code = lsoa11cd,
+    msoa_11_code = msoa11cd,
+    lad_20_code = ladcd
   )
 
 # Keep distinct values and clean postcode column
@@ -51,9 +51,9 @@ postcode_oa_lsoa_msoa_lad <-
 postcode_oa_lsoa_msoa_lad <-
   postcode_oa_lsoa_msoa_lad |>
   filter(
-    str_detect(lad_code, "^E") |
-      str_detect(lad_code, "^W") |
-      str_detect(lad_code, "^S")
+    str_detect(lad_20_code, "^E") |
+      str_detect(lad_20_code, "^W") |
+      str_detect(lad_20_code, "^S")
   )
 
 # Rename

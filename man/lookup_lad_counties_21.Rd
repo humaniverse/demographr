@@ -7,10 +7,10 @@
 \format{
 A data frame of class "tbl" with 331 rows and 4 variables:
 \describe{
-\item{lad_name}{LAD name}
-\item{lad_code}{LAD code}
-\item{county_ua_name}{County name}
-\item{county_ua_code}{County code}
+\item{lad_21_name}{LAD name}
+\item{lad_21_code}{LAD code}
+\item{county_ua_21_name}{County name}
+\item{county_ua_21_code}{County code}
 ...
 }
 }

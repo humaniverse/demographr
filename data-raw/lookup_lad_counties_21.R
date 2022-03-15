@@ -19,10 +19,10 @@ lad_counties <-
 lad_counties <-
   lad_counties |>
   select(
-    lad_name = LTLA21NM,
-    lad_code = LTLA21CD,
-    county_ua_name = UTLA21NM,
-    county_ua_code = UTLA21CD
+    lad_21_name = LTLA21NM,
+    lad_21_code = LTLA21CD,
+    county_ua_21_name = UTLA21NM,
+    county_ua_21_code = UTLA21CD
   )
 
 # Rename

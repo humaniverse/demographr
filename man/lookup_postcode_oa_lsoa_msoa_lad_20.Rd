@@ -10,10 +10,10 @@ Lookup}
 A data frame of class "tbl" with 2,568,780 rows and 5 variables:
 \describe{
 \item{postcode}{Postcodes}
-\item{oa_code}{OA code}
-\item{lsoa_code}{LSOA code}
-\item{msoa_code}{MSOA code}
-\item{lad_code}{LAD code}
+\item{oa_11_code}{OA code}
+\item{lsoa_11_code}{LSOA code}
+\item{msoa_11_code}{MSOA code}
+\item{lad_20_code}{LAD code}
 ...
 }
 }

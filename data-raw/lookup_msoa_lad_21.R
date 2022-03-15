@@ -24,10 +24,10 @@ msoa_lad <- read_excel(tf)
 msoa_lad <-
   msoa_lad |>
   select(
-    msoa_name = MSOA11NM,
-    msoa_code = MSOA11CD,
-    lad_name = LAD21NM,
-    lad_code = LAD21CD
+    msoa_11_name = MSOA11NM,
+    msoa_11_code = MSOA11CD,
+    lad_21_name = LAD21NM,
+    lad_21_code = LAD21CD
   )
 
 # Rename
