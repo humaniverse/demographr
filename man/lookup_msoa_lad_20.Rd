@@ -8,7 +8,7 @@
 A data frame of class "tbl" with 7,201 rows and 4 variables:
 \describe{
 \item{msoa_11_name}{MSOA name}
-\item{msoa_c11_ode}{MSOA code}
+\item{msoa_11_code}{MSOA code}
 \item{lad_20_name}{LAD name}
 \item{lad_20_code}{LAD code}
 ...
