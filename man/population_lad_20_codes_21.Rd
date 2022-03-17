@@ -3,12 +3,12 @@
 \docType{data}
 \name{population_lad_20_codes_21}
 \alias{population_lad_20_codes_21}
-\title{Population estimates for Local Authority Districts (mid-2020 with 2021 codes)}
+\title{Population estimates for Local Authority Districts (mid-2020 values with 2021 codes)}
 \format{
 A data frame of class "tbl" with 331 rows and 94 variables:
 \describe{
-\item{lad_name}{LAD name}
-\item{lad_code}{LAD code}
+\item{lad_21_name}{LAD name}
+\item{lad_21_code}{LAD code}
 \item{total_population}{Total number of people living in each LAD}
 \item{\code{0}:\verb{90+}}{Number of people in each single age group}
 ...

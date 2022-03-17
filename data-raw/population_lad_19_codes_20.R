@@ -10,7 +10,7 @@ load_all(".")
 # List of valid 2020 LAD codes for England and Wales
 lad_codes_eng_wal <-
   lookup_lad_counties_20 |>
-  distinct(lad_name, lad_code)
+  distinct(lad_20_name, lad_20_code)
 
 # Set query url
 query_url <-
@@ -33,9 +33,9 @@ pop <-
 # Valid pop for England and Wales
 pop_eng_wal <-
   pop |>
-  rename(lad_code = Code) |>
-  inner_join(lad_codes_eng_wal, by = c("lad_code")) |>
-  relocate(lad_name, .after = lad_code) |>
+  rename(lad_20_code = Code) |>
+  inner_join(lad_codes_eng_wal, by = c("lad_20_code")) |>
+  relocate(lad_20_name, .after = lad_20_code) |>
   select(-Name, -Geography1) |>
   rename(total_population = `All ages`)
 

@@ -10,7 +10,7 @@ load_all(".")
 # Set query url
 query_url <-
   query_urls |>
-  filter(id == "msoa_19") |>
+  filter(id == "msoa_19_codes_11") |>
   pull(query)
 
 GET(query_url,
@@ -36,18 +36,18 @@ msoa_pop <- read_excel(file.path(unzip_dir, "SAPE22DT4-mid-2019-msoa-syoa-estima
 msoa_pop <-
   msoa_pop |>
   select(
-    msoa_name = `MSOA Name`,
-    msoa_code = `MSOA Code`,
+    msoa_11_name = `MSOA Name`,
+    msoa_11_code = `MSOA Code`,
     `total_population` = `All Ages`,
     `0`:`90+`
   ) |>
   distinct()
 
 # Rename
-population_msoa_19 <- msoa_pop
+population_msoa_19_codes_11 <- msoa_pop
 
 # Save output to data/ folder
-usethis::use_data(population_msoa_19, overwrite = TRUE)
+usethis::use_data(population_msoa_19_codes_11, overwrite = TRUE)
 
 unlink(tf); rm(tf)
 unlink(td); rm(td)

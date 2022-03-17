@@ -3,12 +3,12 @@
 \docType{data}
 \name{population_counties_ua_19_codes_19}
 \alias{population_counties_ua_19_codes_19}
-\title{Population estimates for Counties and Unitary Authorities (mid-2019 with 2019 codes)}
+\title{Population estimates for Counties and Unitary Authorities (mid-2019 values with 2019 codes)}
 \format{
 A data frame of class "tbl" with 173 rows and 94 variables:
 \describe{
-\item{county_ua_name}{County or Unitary Authority name}
-\item{county_ua_code}{County or Unitary Authority code}
+\item{county_ua_19_name}{County or Unitary Authority name}
+\item{county_ua_19_code}{County or Unitary Authority code}
 \item{total_population}{Total number of people living in each area}
 \item{\code{0}:\verb{90+}}{Number of people in each single age group}
 ...
