@@ -12,7 +12,7 @@
 #'   ...
 #' }
 #' @source \url{https://geoportal.statistics.gov.uk/}
-"lookup_lad_counties_19"
+"lookup_lad_19_counties_ua_19"
 
 #' Local Authority Districts to County and Unitary Authorities lookup (2020).
 #'
@@ -28,7 +28,7 @@
 #'   ...
 #' }
 #' @source \url{https://geoportal.statistics.gov.uk/}
-"lookup_lad_counties_20"
+"lookup_lad_20_counties_ua_20"
 
 #' Local Authority Districts to County and Unitary Authorities lookup (2021).
 #'
@@ -44,7 +44,7 @@
 #'   ...
 #' }
 #' @source \url{https://geoportal.statistics.gov.uk/}
-"lookup_lad_counties_21"
+"lookup_lad_21_counties_ua_21"
 
 #' Population estimates for Counties and Unitary Authorities (mid-2019 values with 2019 codes)
 #'

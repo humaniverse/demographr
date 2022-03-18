@@ -10,7 +10,7 @@ load_all(".")
 # Set query url
 query_url <-
   query_urls |>
-  filter(id == "lad_counties_21") |>
+  filter(id == "lad_20_counties_ua_20") |>
   pull(query)
 
 lad_counties <-
@@ -19,14 +19,14 @@ lad_counties <-
 lad_counties <-
   lad_counties |>
   select(
-    lad_21_name = LTLA21NM,
-    lad_21_code = LTLA21CD,
-    county_ua_21_name = UTLA21NM,
-    county_ua_21_code = UTLA21CD
+    lad_20_name = LTLA20NM,
+    lad_20_code = LTLA20CD,
+    county_ua_20_name = UTLA20NM,
+    county_ua_20_code = UTLA20CD
   )
 
 # Rename
-lookup_lad_counties_21 <- lad_counties
+lookup_lad_20_counties_ua_20 <- lad_counties
 
 # Save output to data/ folder
-usethis::use_data(lookup_lad_counties_21, overwrite = TRUE)
+usethis::use_data(lookup_lad_20_counties_ua_20, overwrite = TRUE)

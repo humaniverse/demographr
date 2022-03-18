@@ -9,7 +9,7 @@ load_all(".")
 
 # List of valid 2020 LAD codes for England and Wales
 counties_codes_eng_wal <-
-  lookup_lad_counties_19 |>
+  lookup_lad_20_counties_ua_20 |>
   distinct(county_ua_20_name, county_ua_20_code)
 
 # Set query url
