@@ -8,7 +8,7 @@ load_all(".")
 # Set query url
 query_url <-
   query_urls |>
-  filter(id == "dz") |>
+  filter(id == "estimates20_dz11") |>
   pull(query)
 
 dz_pop <- read_csv(query_url)
@@ -21,7 +21,7 @@ population_dz <-
   
   # Select and rename vars
   select(
-    dz_code = `DataZone`,
+    dz11_code = `DataZone`,
     `total_population` = AllAges,
     sex = Sex,
     Age0:Age90plus
@@ -32,7 +32,7 @@ population_dz <-
   rename(`90+` = `90plus`)
 
 # Rename
-population_dz_20 <- population_dz
+population20_dz11 <- population_dz
 
 # Save output to data/ folder
-usethis::use_data(population_dz_20, overwrite = TRUE)
+usethis::use_data(population20_dz11, overwrite = TRUE)

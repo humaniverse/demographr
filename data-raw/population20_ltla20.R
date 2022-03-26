@@ -7,15 +7,15 @@ library(httr)
 # Load package
 load_all(".")
 
-# List of valid 2019 LAD codes for England and Wales
-lad_codes_eng_wal <-
-  lookup_lad_19_counties_ua_19 |>
-  distinct(lad_19_name, lad_19_code)
+# List of valid 2020 LAD codes for England and Wales
+ltla_codes_eng_wal <-
+  lookup_ltla20_utla20 |>
+  distinct(ltla20_name, ltla20_code) 
 
 # Set query url
 query_url <-
   query_urls |>
-  filter(id == "lad_19_codes_19") |>
+  filter(id == "estimates20_ltla20") |>
   pull(query)
 
 GET(
@@ -27,22 +27,22 @@ pop <-
   read_excel(
     tf,
     sheet = "MYE2 - Persons",
-    skip = 4
+    skip = 7
   )
 
 # Valid pop for England and Wales
 pop_eng_wal <-
   pop |>
-  rename(lad_19_code = Code) |>
-  inner_join(lad_codes_eng_wal, by = c("lad_19_code")) |>
-  relocate(lad_19_name, .after = lad_19_code) |>
-  select(-Name, -Geography1) |>
+  rename(ltla20_code = Code) |>
+  inner_join(ltla_codes_eng_wal, by = "ltla20_code") |>
+  relocate(ltla20_name, .after = ltla20_code) |>
+  select(-Geography, -Name) |>
   rename(total_population = `All ages`)
 
 # To get valid 2020 codes for Scot and NI an bind
 
 # Rename
-population_lad_19_codes_19 <- pop_eng_wal
+population20_ltla20 <- pop_eng_wal
 
 # Save output to data/ folder
-usethis::use_data(population_lad_19_codes_19, overwrite = TRUE)
+usethis::use_data(population20_ltla20, overwrite = TRUE)
