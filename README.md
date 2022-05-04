@@ -11,7 +11,9 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 
 ## Overview
 
-demographr is an R package for distributing UK demographic data.
+demographr is an R package for distributing UK demographic data:
+
+- `population_*` objects distribute population estimates as dataframes
 
 ## Installation
 
