@@ -233,3 +233,19 @@
 #' }
 #' @source \url{https://ons.gov.uk/}
 "population20_utla20"
+
+#' Population in UK countries, as of Census 2021
+#' 
+#' A data sets containing Census 2021 population counts for each UK nation. 
+#' Note that Scotland has not yet released its latest Census results, so this
+#' is based on mid-year population estimates.
+#' 
+#' @format A data frame of class "tbl" with 4 rows and 3 variables:
+#' \describe{
+#'   \item{country_name}{Country name}
+#'   \item{country_code}{Country code}
+#'   \item{population}{Number of people}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"population21_country21"
