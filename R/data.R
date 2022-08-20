@@ -282,3 +282,18 @@
 #' }
 #' @source \url{https://ons.gov.uk/}
 "households21_ltla21"
+
+#' Scottish Health Board (2019) Population Estimates
+#' 
+#' A data set containing population estimates for NHS Scotland Health Boards 
+#' (2019), from 1981 to 2021.
+#' 
+#' @format A data frame of class "tbl" with 574 rows and 3 variables:
+#' \describe{
+#'   \item{hb19_code}{NHS Health Board code}
+#'   \item{year}{Year of population estimate}
+#'   \item{total_population}{Total population for all ages}
+#'   ...
+#' }
+#' @source \url{https://www.opendata.nhs.scot/}
+"estimates_hb19"
