@@ -218,6 +218,21 @@
 #' @source \url{https://ons.gov.uk/}
 "population20_msoa11"
 
+#' Population estimates for OAs in England and Wales (mid-2020 estimates with 2011 codes)
+#'
+#' A data set containing mid-2020 population estimates for Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 181,408 rows and 94 variables:
+#' \describe{
+#'   \item{oa11_name}{OA name}
+#'   \item{oa11_code}{OA code}
+#'   \item{total_population}{Total number of people living in each OA}
+#'   \item{`0`:`90+`}{Number of people in each single age group}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"population20_oa11"
+
 #' Population estimates for Counties and Unitary Authorities (mid-2020 values with 2020 codes)
 #'
 #' A data set containing mid-2020 population estimates for County and Unitary
