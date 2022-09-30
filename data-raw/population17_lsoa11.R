@@ -35,8 +35,8 @@ lsoa_pop <- read_excel(file.path(unzip_dir, "SAPE20DT1-mid-2017-lsoa-syoa-estima
 lsoa_pop <-
   lsoa_pop %>%
   select(
-    lsoa11_name = `Area Codes`,
-    lsoa11_code = `...3`,
+    lsoa11_code = `Area Codes`,
+    lsoa11_name = `...3`,
     `total_population` = `All Ages`,
     `0`:`90+`
   ) %>%
