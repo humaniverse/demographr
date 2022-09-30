@@ -46,6 +46,21 @@
 #' @source \url{https://geoportal.statistics.gov.uk/}
 "lookup_ltla21_utla21"
 
+#' Population estimates for LSOAs in England and Wales (mid-2017 estimates with 2011 codes)
+#'
+#' A data set containing mid-2017 population estimates for Lower Layer Super Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 34,753 rows and 94 variables:
+#' \describe{
+#'   \item{lsoa11_name}{LSOA name}
+#'   \item{lsoa11_code}{LSOA code}
+#'   \item{total_population}{Total number of people living in each LSOA}
+#'   \item{`0`:`90+`}{Number of people in each single age group}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"population17_lsoa11"
+
 #' Population estimates for LSOAs in England and Wales (mid-2019 estimates with 2011 codes)
 #'
 #' A data set containing mid-2019 population estimates for Lower Layer Super Output Areas in England and Wales.
