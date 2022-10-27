@@ -34,13 +34,14 @@ lsoa_pop <- read_excel(file.path(unzip_dir, "SAPE20DT1-mid-2017-lsoa-syoa-estima
 # Select and rename vars
 lsoa_pop <-
   lsoa_pop %>%
+  # filter so only LSOAs not also LTLAs
+  filter(!is.na(...3)) |>
   select(
     lsoa11_code = `Area Codes`,
     lsoa11_name = `...3`,
     `total_population` = `All Ages`,
     `0`:`90+`
   ) %>%
-  filter(!is.na(lsoa11_code)) |>
   distinct()
 
 # Rename
