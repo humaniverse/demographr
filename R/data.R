@@ -1,3 +1,19 @@
+#' Ethnic group data for England and Wales from the 2021 Census
+#' 
+#' A data sets containing Census 2021 ehtnic group numers and percentages for
+#' each Lower Tier Local Authority in England and Wales.
+#' 
+#' @format A data frame of class "tbl" with 331 rows and 3 variables:
+#' \describe{
+#'   \item{ltla21_name}{Local Authority name}
+#'   \item{ltla21_code}{Local Authority code}
+#'   \item{ethnic_group}{Ethnic group}
+#'   \item{value}{The count or percentage of the ethnic group}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"ethnicity21_ltla21"
+
 #' Households in Lower Tier Local Authorities in England and Wales, as of 
 #' Census 2021
 #' 
