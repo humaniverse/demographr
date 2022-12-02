@@ -11,7 +11,7 @@ load_all(".")
 # Set query url
 query_url <-
   query_urls |>
-  filter(id == "census21_england_wales") |>
+  filter(id == "households_england_wales") |>
   pull(query)
 
 GET(
