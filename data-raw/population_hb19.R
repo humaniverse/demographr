@@ -13,7 +13,7 @@ query_url <-
 
 estimates_hb19 <- read_csv(query_url)
 
-estimates_hb19 <- 
+population_hb19 <- 
   estimates_hb19 |> 
   filter(Sex == "All") |> 
   
@@ -27,4 +27,4 @@ estimates_hb19 <-
   )
 
 # Save output to data/ folder
-usethis::use_data(estimates_hb19, overwrite = TRUE)
+usethis::use_data(population_hb19, overwrite = TRUE)
