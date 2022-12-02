@@ -13,13 +13,11 @@ query_url <-
 
 estimates_hb19 <- read_csv(query_url)
 
-population_hb19 <- 
-  estimates_hb19 |> 
-  filter(Sex == "All") |> 
-  
+population_hb19 <-
+  estimates_hb19 |>
+  filter(Sex == "All") |>
   # Don't include Scotland totals
-  filter(HB != "S92000003") |> 
-  
+  filter(HB != "S92000003") |>
   select(
     hb19_code = HB,
     year = Year,

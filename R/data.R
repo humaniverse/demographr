@@ -1,50 +1,34 @@
-#' Local Authority Districts to County and Unitary Authorities lookup (2019).
-#'
-#' A data set containing a lookup between December 2019 Local Authority
-#' Districts and County and Unitary Authorities.
-#'
-#' @format A data frame of class "tbl" with 339 rows and 4 variables:
+#' Households in Lower Tier Local Authorities in England and Wales, as of 
+#' Census 2021
+#' 
+#' A data sets containing Census 2021 population counts for each Lower Tier 
+#' Local Authority in the UK. Currently only Local Authority data has been
+#' released for England and Wales.
+#' 
+#' @format A data frame of class "tbl" with 331 rows and 3 variables:
 #' \describe{
-#'   \item{ltla19_name}{LAD name}
-#'   \item{ltla19_code}{LAD code}
-#'   \item{utla19_name}{County name}
-#'   \item{utla19_code}{County code}
+#'   \item{ltla21_name}{Local Authority name}
+#'   \item{ltla21_code}{Local Authority code}
+#'   \item{households}{Number of households}
 #'   ...
 #' }
-#' @source \url{https://geoportal.statistics.gov.uk/}
-"lookup_ltla19_utla19"
+#' @source \url{https://ons.gov.uk/}
+"households21_ltla21"
 
-#' Local Authority Districts to County and Unitary Authorities lookup (2020).
-#'
-#' A data set containing a lookup between December 2020 Local Authority
-#' Districts and County and Unitary Authorities.
-#'
-#' @format A data frame of class "tbl" with 336 rows and 4 variables:
+#' Scottish Health Board (2019) Population Estimates
+#' 
+#' A data set containing population estimates for NHS Scotland Health Boards 
+#' (2019), from 1981 to 2021.
+#' 
+#' @format A data frame of class "tbl" with 574 rows and 3 variables:
 #' \describe{
-#'   \item{ltla20_name}{LAD name}
-#'   \item{ltla20_code}{LAD code}
-#'   \item{utla20_name}{County name}
-#'   \item{utla20_code}{County code}
+#'   \item{hb19_code}{NHS Health Board code}
+#'   \item{year}{Year of population estimate}
+#'   \item{total_population}{Total population for all ages}
 #'   ...
 #' }
-#' @source \url{https://geoportal.statistics.gov.uk/}
-"lookup_ltla20_utla20"
-
-#' Local Authority Districts to County and Unitary Authorities lookup (2021).
-#'
-#' A data set containing a lookup between December 2021 Local Authority
-#' Districts and County and Unitary Authorities.
-#'
-#' @format A data frame of class "tbl" with 331 rows and 4 variables:
-#' \describe{
-#'   \item{ltla21_name}{LAD name}
-#'   \item{ltla21_code}{LAD code}
-#'   \item{utla21_name}{County name}
-#'   \item{utla21_code}{County code}
-#'   ...
-#' }
-#' @source \url{https://geoportal.statistics.gov.uk/}
-"lookup_ltla21_utla21"
+#' @source \url{https://www.opendata.nhs.scot/}
+"population_hb19"
 
 #' Population estimates for LSOAs in England and Wales (mid-2017 estimates with 2011 codes)
 #'
@@ -295,35 +279,3 @@
 #' }
 #' @source \url{https://ons.gov.uk/}
 "population21_ltla21"
-
-#' Households in Lower Tier Local Authorities in England and Wales, as of 
-#' Census 2021
-#' 
-#' A data sets containing Census 2021 population counts for each Lower Tier 
-#' Local Authority in the UK. Currently only Local Authority data has been
-#' released for England and Wales.
-#' 
-#' @format A data frame of class "tbl" with 331 rows and 3 variables:
-#' \describe{
-#'   \item{ltla21_name}{Local Authority name}
-#'   \item{ltla21_code}{Local Authority code}
-#'   \item{households}{Number of households}
-#'   ...
-#' }
-#' @source \url{https://ons.gov.uk/}
-"households21_ltla21"
-
-#' Scottish Health Board (2019) Population Estimates
-#' 
-#' A data set containing population estimates for NHS Scotland Health Boards 
-#' (2019), from 1981 to 2021.
-#' 
-#' @format A data frame of class "tbl" with 574 rows and 3 variables:
-#' \describe{
-#'   \item{hb19_code}{NHS Health Board code}
-#'   \item{year}{Year of population estimate}
-#'   \item{total_population}{Total population for all ages}
-#'   ...
-#' }
-#' @source \url{https://www.opendata.nhs.scot/}
-"estimates_hb19"
