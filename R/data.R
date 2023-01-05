@@ -1,6 +1,6 @@
-#' Ethnic group data for England and Wales from the 2021 Census
+#' Ethnic group data for England and Wales from the 2021 Census (Local Authority)
 #' 
-#' A data sets containing Census 2021 ehtnic group numers and percentages for
+#' A data sets containing Census 2021 ethnic group numbers and percentages for
 #' each Lower Tier Local Authority in England and Wales.
 #' 
 #' @format A data frame of class "tbl" with 331 rows and 3 variables:
@@ -13,6 +13,41 @@
 #' }
 #' @source \url{https://ons.gov.uk/}
 "ethnicity21_ltla21"
+
+#' Ethnic group data for England and Wales from the 2021 Census (MSOA)
+#' 
+#' A data sets containing Census 2021 ethnic group numbers and percentages for
+#' each Middle Layer Super Output Area in England and Wales.
+#' 
+#' @format A data frame of class "tbl" with 43,584 rows and 5 variables:
+#' \describe{
+#'   \item{msoa21_code}{MSOA code}
+#'   \item{total_residents}{Total number of residents in the MSOA}
+#'   \item{ethnic_group}{Ethnic group}
+#'   \item{n}{Number of people in the ethnic group}
+#'   \item{prop}{Percentage of people in the ethnic group}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"ethnicity21_msoa21"
+
+#' Ethnic group (detailed) data for England and Wales from the 2021 Census 
+#' (MSOA)
+#' 
+#' A data sets containing Census 2021 detailed ethnic group numbers and 
+#' percentages for each Middle Layer Super Output Area in England and Wales.
+#' 
+#' @format A data frame of class "tbl" with 2,084,768 rows and 5 variables:
+#' \describe{
+#'   \item{msoa21_code}{MSOA code}
+#'   \item{total_residents}{Total number of residents in the MSOA}
+#'   \item{ethnic_group}{Ethnic group (detailed)}
+#'   \item{n}{Number of people in the ethnic group}
+#'   \item{prop}{Percentage of people in the ethnic group}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"ethnicity21_detailed_msoa21"
 
 #' Households in Lower Tier Local Authorities in England and Wales, as of 
 #' Census 2021

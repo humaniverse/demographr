@@ -9,6 +9,7 @@ query_urls <-
 
     # - Ethnicity -
     "ethnicity", "ethnicity21_ltla21", "29.11.22", "OGLv3", "https://www.ons.gov.uk/visualisations/dvc2203/map/datadownload.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
+    "ethnicity", "ethnicity21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts022.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
 
     # - Households -
     "population", "households_england_wales", "28.06.22", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021",

@@ -3,7 +3,7 @@
 \docType{data}
 \name{ethnicity21_ltla21}
 \alias{ethnicity21_ltla21}
-\title{Ethnic group data for England and Wales from the 2021 Census}
+\title{Ethnic group data for England and Wales from the 2021 Census (Local Authority)}
 \format{
 A data frame of class "tbl" with 331 rows and 3 variables:
 \describe{
@@ -21,7 +21,7 @@ A data frame of class "tbl" with 331 rows and 3 variables:
 ethnicity21_ltla21
 }
 \description{
-A data sets containing Census 2021 ehtnic group numers and percentages for
+A data sets containing Census 2021 ethnic group numbers and percentages for
 each Lower Tier Local Authority in England and Wales.
 }
 \keyword{datasets}
