@@ -296,6 +296,8 @@
 #' @source \url{https://ons.gov.uk/}
 "population21_ltla21"
 
+#' Migration statistics Middle Super Output Area, as of Census 2021
+#' 
 #' A data sets containing Census 2021 migration statistics with percentages for 
 #' each Middle Super Output Area (MSOA). 
 #' 
@@ -314,3 +316,21 @@
 #' }
 #' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
 "migration21_msoa21"
+
+#' Country of birth data, as of Census 2021
+#' 
+#' A data sets containing Census 2021 data on the country of birth by Lower
+#' Tier Local Authority 
+#' 
+#' @format A data frame of class "tbl" with 27142 rows and 6 variables:
+#' \describe{
+#'   \item{ltla21_name}{Local Authority name}
+#'   \item{ltla21_code}{Local Authority code}
+#'   \item{total_all_usual_residents}{Total number of residents in that LTLA}
+#'   \item{country_of_birth}{Country of birth}
+#'   \item{value}{Number from each country}
+#'   \item{prop}{Proportion}
+#'   ...
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"country_of_birth21_ltla21"

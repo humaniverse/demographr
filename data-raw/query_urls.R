@@ -6,6 +6,9 @@ query_urls <-
   tribble(
     # Column Names
     ~demog_type, ~id, ~date, ~license, ~query, ~source,
+    
+    # Country of birth
+    "country", "country_of_birth21_ltla21", "21.03.21", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts012.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
 
     # - Ethnicity -
     "ethnicity", "ethnicity21_ltla21", "29.11.22", "OGLv3", "https://www.ons.gov.uk/visualisations/dvc2203/map/datadownload.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
