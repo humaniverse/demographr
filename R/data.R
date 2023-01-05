@@ -330,3 +330,22 @@
 #' }
 #' @source \url{https://ons.gov.uk/}
 "population21_ltla21"
+
+#' Proficiency in English for England and Wales from the 2021 Census (MSOA)
+#' 
+#' A data sets containing Census 2021 proficiency in English numbers and 
+#' percentages for each Middle Layer Super Output Area in England and Wales.
+#' 
+#' @format A data frame of class "tbl" with 7,264 rows and 8 variables:
+#' \describe{
+#'   \item{msoa21_code}{MSOA code}
+#'   \item{Main language is English (English or Welsh in Wales)}{Number of residents where main language is English (English or Welsh in Wales)}
+#'   \item{Main language is not English (English or Welsh in Wales)}{Number of residents where main language is not English (English or Welsh in Wales)}
+#'   \item{Main language is not English (English or Welsh in Wales): Can speak English very well}{Number of residents where main language is not English (English or Welsh in Wales): Can speak English very wel}
+#'   \item{Main language is not English (English or Welsh in Wales): Can speak English well}{Number of residents where main language is not English (English or Welsh in Wales): Can speak English wel}
+#'   \item{Main language is not English (English or Welsh in Wales): Cannot speak English well}{Number of residents where main language is not English (English or Welsh in Wales): Cannot speak English wel}
+#'   \item{Main language is not English (English or Welsh in Wales): Cannot speak English}{Number of residents where main language is not English (English or Welsh in Wales): Cannot speak Englishwel}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"proficiency21_msoa21"
