@@ -13,6 +13,9 @@ query_urls <-
     # - Households -
     "population", "households_england_wales", "28.06.22", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021",
     "population", "households_northern_ireland", "24.05.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-population-and-household-estimates-for-northern-ireland-tables-24-may-2022.xlsx", "https://www.nisra.gov.uk/publications/census-2021-population-and-household-estimates-for-northern-ireland",
+    
+    # Migration census 2021 data
+    "migration", "migration21_msoa21", "21.03.21", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts019.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
 
     # - Population estimates -
     "population", "estimates17_lsoa11", "25.10.18", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates/mid2017/sape20dt1mid2017lsoasyoaestimatesformatted.zip", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates",
@@ -52,6 +55,6 @@ query_urls <-
     "population", "population20_oa11_yh", "16.09.21", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/censusoutputareaestimatesintheyorkshireandthehumberregionofengland/mid2020sape23dt10c/sape23dt10cmid2020coaunformattedsyoaestimatesyorkshireandthehumber.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualsmallareapopulationestimates/mid2020/relateddata?page=1",
     # London
     "population", "population20_oa11_l", "16.09.21", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/censusoutputareaestimatesinthelondonregionofengland/mid2020sape23dt10a/sape23dt10amid2020coaunformattedsyoaestimateslondon.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualsmallareapopulationestimates/mid2020/relateddata?page=1"
-  )
+    )
 
 usethis::use_data(query_urls, internal = TRUE, overwrite = TRUE)
