@@ -1,3 +1,24 @@
+#' Age and gender grouped data for Northern Ireland from 2021 Census (Local Government Districts)
+#' 
+#' A dataset containing Census 2021 age and gender group count for each Local Government District in Northern Ireland.
+#' 
+#' @format A data frame of class "tbl" with 12 rows and 11 variables:
+#' \describe{
+#'   \item{ltla21_name}{Local Government District name}
+#'   \item{ltla21_code}{Local Government District code}
+#'   \item{total_population}{Total population in NI}
+#'   \item{total_female_population}{Total female population in NI}
+#'   \item{total_male_population}{Total male population in NI}
+#'   \item{younger_females}{Count of females aged under 20 years}
+#'   \item{working_age_females}{Count of females aged between 20 and 65}
+#'   \item{older_females}{Count of females aged over 65}
+#'   \item{younger_males}{Count of males aged under 20 years}
+#'   \item{working_age_males}{Count of males aged between 20 and 65}
+#'   \item{older_males}{Count of males aged over 65}
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"age_gender_ltla21_ni"
+
 #' Ethnic group data for England and Wales from the 2021 Census (Local Authority)
 #' 
 #' A data sets containing Census 2021 ethnic group numbers and percentages for
