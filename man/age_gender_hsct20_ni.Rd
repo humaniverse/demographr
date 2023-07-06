@@ -3,15 +3,16 @@
 \docType{data}
 \name{age_gender_hsct20_ni}
 \alias{age_gender_hsct20_ni}
-\title{Age and gender grouped data for Northern Ireland from Population 2020 (Health and Social Care Trusts)}
+\title{Age and gender grouped data for Northern Ireland from Population 2020
+(Health and Social Care Trusts)}
 \format{
 A data frame of class "tbl" with 5 rows and 11 variables:
 \describe{
 \item{hsct20_name}{Health and Social Care Trust name}
 \item{hsct20_code}{Health and Social Care Trust code}
-\item{total_population}{Total population in NI}
-\item{total_female_population}{Total female population in NI}
-\item{total_male_population}{Total male population in NI}
+\item{total_population}{Total population}
+\item{total_female_population}{Total female population}
+\item{total_male_population}{Total male population}
 \item{younger_females}{Count of females aged under 16 years}
 \item{working_age_females}{Count of females aged between 16 and 65}
 \item{older_females}{Count of females aged over 65}
@@ -27,6 +28,7 @@ A data frame of class "tbl" with 5 rows and 11 variables:
 age_gender_hsct20_ni
 }
 \description{
-A dataset containing Population 2020 age and gender group count for each HSCT in Northern Ireland.
+A dataset containing Population 2020 age and gender count for each HSCT in
+Northern Ireland.
 }
 \keyword{datasets}

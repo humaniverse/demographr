@@ -16,7 +16,7 @@ query_url <-
   filter(id == "age_gender_hsct20_ni") |>
   pull(query)
 
-download <- tempfile(fileext = ".xlsx")
+download <- tempfile(fileext = ".ods")
 
 request(query_url) |>
   req_perform(download)
@@ -28,7 +28,6 @@ raw <- read_ods(
 )
 
 # ---- Clean data ----
-
 age_gender_hsct20_ni <- raw |>
   mutate(
     younger_females = `Female: 0-15 years`,
