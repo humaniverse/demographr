@@ -29,7 +29,6 @@ raw <- read_excel(
 
 # ---- Clean data ----
 # LGD renamed ltla for consistency in package
-
 age_gender_ltla21_ni <- raw |>
   mutate(
     younger_females = `Female:\r\n 0-4 years` + `Female: \r\n5-9 years` + `Female: \r\n10-14 years` + `Female: \r\n15-19 years`,
@@ -50,8 +49,8 @@ age_gender_ltla21_ni <- raw |>
     older_females,
     younger_males,
     working_age_males,
-    older_males
-  )
+    older_males) |>
+  filter(ltla21_code != "N92000002")
     
 # ---- Save output to data/ folder ----
 usethis::use_data(age_gender_ltla21_ni, overwrite = TRUE)
