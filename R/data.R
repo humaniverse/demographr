@@ -1,3 +1,24 @@
+#' Age and gender grouped data for Northern Ireland from Population 2020 (Health and Social Care Trusts)
+#' 
+#' A dataset containing Population 2020 age and gender group count for each HSCT in Northern Ireland.
+#' 
+#' @format A data frame of class "tbl" with 5 rows and 11 variables:
+#' \describe{
+#'   \item{hsct20_name}{Health and Social Care Trust name}
+#'   \item{hsct20_code}{Health and Social Care Trust code}
+#'   \item{total_population}{Total population in NI}
+#'   \item{total_female_population}{Total female population in NI}
+#'   \item{total_male_population}{Total male population in NI}
+#'   \item{younger_females}{Count of females aged under 16 years}
+#'   \item{working_age_females}{Count of females aged between 16 and 65}
+#'   \item{older_females}{Count of females aged over 65}
+#'   \item{younger_males}{Count of males aged under 16 years}
+#'   \item{working_age_males}{Count of males aged between 16 and 65}
+#'   \item{older_males}{Count of males aged over 65}
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"age_gender_hsct20_ni"
+
 #' Age and gender grouped data for Northern Ireland from 2021 Census (Local Government Districts)
 #' 
 #' A dataset containing Census 2021 age and gender group count for each Local Government District in Northern Ireland.
