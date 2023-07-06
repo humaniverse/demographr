@@ -12,6 +12,7 @@ query_urls <-
     "ethnicity", "ethnicity21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts022.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
 
     # - Households -
+    "population", "age_gender_ltla21_ni", "31.05.23", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a08.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-demography-tables-age-and-sex",
     "population", "households_england_wales", "28.06.22", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021",
     "population", "households_northern_ireland", "24.05.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-population-and-household-estimates-for-northern-ireland-tables-24-may-2022.xlsx", "https://www.nisra.gov.uk/publications/census-2021-population-and-household-estimates-for-northern-ireland",
     
