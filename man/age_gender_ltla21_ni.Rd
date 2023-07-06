@@ -3,15 +3,16 @@
 \docType{data}
 \name{age_gender_ltla21_ni}
 \alias{age_gender_ltla21_ni}
-\title{Age and gender grouped data for Northern Ireland from 2021 Census (Local Government Districts)}
+\title{Age and gender grouped data for Northern Ireland from 2021 Census
+(Local Government Districts)}
 \format{
-A data frame of class "tbl" with 12 rows and 11 variables:
+A data frame of class "tbl" with 11 rows and 11 variables:
 \describe{
 \item{ltla21_name}{Local Government District name}
 \item{ltla21_code}{Local Government District code}
-\item{total_population}{Total population in NI}
-\item{total_female_population}{Total female population in NI}
-\item{total_male_population}{Total male population in NI}
+\item{total_population}{Total population}
+\item{total_female_population}{Total female population}
+\item{total_male_population}{Total male population}
 \item{younger_females}{Count of females aged under 20 years}
 \item{working_age_females}{Count of females aged between 20 and 65}
 \item{older_females}{Count of females aged over 65}
@@ -27,6 +28,7 @@ A data frame of class "tbl" with 12 rows and 11 variables:
 age_gender_ltla21_ni
 }
 \description{
-A dataset containing Census 2021 age and gender group count for each Local Government District in Northern Ireland.
+A dataset containing Census 2021 age and gender count for each Local
+Government District in Northern Ireland.
 }
 \keyword{datasets}
