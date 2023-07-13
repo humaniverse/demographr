@@ -12,7 +12,7 @@ load_all(".")
 # ---- Download data ----
 query_url <-
   query_urls |>
-  filter(id == "age_gender_ltla21_ni") |>
+  filter(id == "ethnicity21_ltla21_ni") |>
   pull(query)
 
 download <- tempfile(fileext = ".xlsx")
@@ -20,8 +20,14 @@ download <- tempfile(fileext = ".xlsx")
 request(query_url) |>
   req_perform(download)
 
-raw <- read_excel(
+raw_count <- read_excel(
   download,
   sheet = "MS-B01",
-  range = "A9:BJ21"
+  range = "A9:P21"
+)
+
+raw_percent <- read_excel(
+  download,
+  sheet = "MS-B01",
+  range = "A24:P36"
 )
