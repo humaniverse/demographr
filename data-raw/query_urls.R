@@ -10,6 +10,7 @@ query_urls <-
     # - Ethnicity -
     "ethnicity", "ethnicity21_ltla21", "29.11.22", "OGLv3", "https://www.ons.gov.uk/visualisations/dvc2203/map/datadownload.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
     "ethnicity", "ethnicity21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts022.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "ethnicity", "ethnicity21_ltla21_ni", "22.09.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-b01.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-ethnicity-tables",
 
     # - Households -
     "population", "age_gender_hsct20_ni", "06.07.23", "OGLv3", "https://www.ninis2.nisra.gov.uk/Download/Population/Population%20Estimates%20Broad%20Age%20Bands%20(administrative%20geographies).ods", "https://www.ninis2.nisra.gov.uk/public/AreaProfileReportViewer.aspx?tabchangeReportName=Investing%20for%20Health?",
