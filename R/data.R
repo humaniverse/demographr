@@ -74,7 +74,7 @@
 #'   ...
 #' }
 #' @source \url{https://www.nisra.gov.uk/}
-"ethnicity21_ltla2_ni"
+"ethnicity21_ltla21_ni"
 
 #' Ethnic group data for England and Wales from the 2021 Census (MSOA)
 #' 
