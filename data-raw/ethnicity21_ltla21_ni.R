@@ -34,7 +34,7 @@ raw_percent <- read_excel(
 
 # ---- Clean data ----
 ethnicity_count <-
-  raw_count |> 
+  raw_count |>
   select(
     ltla21_name = Geography,
     ltla21_code = `Geography code`,
@@ -51,8 +51,8 @@ ethnicity_count <-
     `Other Black (number)` = `Black Other`,
     `Mixed ethnic groups (number)` = Mixed,
     `Other ethnicities (number)` = `Other ethnicities`
-  ) |> 
-  filter(ltla21_code != "N92000002") |> 
+  ) |>
+  filter(ltla21_code != "N92000002") |>
   pivot_longer(
     !starts_with("ltla21"),
     names_to = "ethnic_group",
@@ -60,7 +60,7 @@ ethnicity_count <-
   )
 
 ethnicity_percent <-
-  raw_percent |> 
+  raw_percent |>
   select(
     ltla21_name = Geography,
     ltla21_code = `Geography code`,
@@ -77,15 +77,15 @@ ethnicity_percent <-
     `Other Black (percent)` = `Black Other`,
     `Mixed ethnic groups (percent)` = Mixed,
     `Other ethnicities (percent)` = `Other ethnicities`
-  ) |> 
-  filter(ltla21_code != "N92000002") |> 
+  ) |>
+  filter(ltla21_code != "N92000002") |>
   pivot_longer(
     !starts_with("ltla21"),
     names_to = "ethnic_group",
     values_to = "value"
   )
 
-ethnicity21_ltla21_ni <- 
+ethnicity21_ltla21_ni <-
   bind_rows(
     ethnicity_count,
     ethnicity_percent
