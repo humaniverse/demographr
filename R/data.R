@@ -1,3 +1,6 @@
+#' @importFrom tibble tibble
+NULL
+
 #' Age and gender grouped data for Northern Ireland from Population 2020
 #' (Health and Social Care Trusts)
 #' 
