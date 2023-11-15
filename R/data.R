@@ -255,7 +255,6 @@ NULL
 #' @source \url{https://ons.gov.uk/}
 "population19_utla20"
 
-
 #' Population estimates for Data Zones in Scotland (2020 estimates with 2011 codes)
 #'
 #' A data set containing 2020 population estimates by age and sex for Data Zones in Scotland.
@@ -270,6 +269,21 @@ NULL
 #' }
 #' @source \url{https://www.opendata.nhs.scot/}
 "population20_dz11"
+
+#' Population estimates for Data Zones in Scotland (2021 estimates with 2011 codes)
+#'
+#' A data set containing 2021 population estimates by age and sex for Data Zones in Scotland.
+#'
+#' @format A data frame of class "tbl" with 20,928 rows and 94 variables:
+#' \describe{
+#'   \item{dz11_code}{Data Zone code}
+#'   \item{total_population}{Total number of people living in each DZ}
+#'   \item{sex}{'Female', 'Male' or 'All'}
+#'   \item{`0`:`90+`}{Number of people in each single age group}
+#'   ...
+#' }
+#' @source \url{https://www.opendata.nhs.scot/}
+"population21_dz11"
 
 #' Population estimates for LSOAs in England and Wales (mid-2020 estimates with 2011 codes)
 #'
@@ -363,6 +377,19 @@ NULL
 #' }
 #' @source \url{https://ons.gov.uk/}
 "population20_utla20"
+
+#' Population estimates for SOAs in Northern Ireland (mid-2020 estimates with 2011 codes)
+#'
+#' A data set containing mid-2020 population estimates for Super Output Areas in Northern Ireland.
+#'
+#' @format A data frame of class "tbl" with 4,537 rows and 2 variables:
+#' \describe{
+#'   \item{soa11_code}{SOA code}
+#'   \item{total_population}{Total number of people living in each SOA}
+#'   ...
+#' }
+#' @source \url{https://nisra.gov.uk/}
+"population20_soa11"
 
 #' Population in UK countries, as of Census 2021
 #' 
