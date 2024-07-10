@@ -61,7 +61,10 @@ query_urls <-
     "population", "population20_oa11_l", "16.09.21", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/censusoutputareaestimatesinthelondonregionofengland/mid2020sape23dt10a/sape23dt10amid2020coaunformattedsyoaestimateslondon.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualsmallareapopulationestimates/mid2020/relateddata?page=1",
     
     # Proficiency in English
-    "proficiency", "proficiency21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts029.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk"
+    "proficiency", "proficiency21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts029.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    
+    # Religion
+    "religion", "religion", "", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts030.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk"
   )
 
 usethis::use_data(query_urls, internal = TRUE, overwrite = TRUE)

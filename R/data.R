@@ -433,3 +433,20 @@ NULL
 #' }
 #' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
 "migration21_msoa21"
+
+#' Religion data for England and Wales from the 2021 Census (MSOA)
+#' 
+#' A data sets containing Census 2021 religion numbers and percentages for
+#' each Lower Layer Super Output Area in England and Wales.
+#' 
+#' @format A data frame of class "tbl" with 5 variables:
+#' \describe{
+#'   \item{lsoa21_code}{LSOA code}
+#'   \item{total_residents}{Total number of residents in the LSOA}
+#'   \item{religion}{Religion}
+#'   \item{n}{Number of people in the religion}
+#'   \item{prop}{Percentage of people in the religion}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"religion21_lsoa21"
