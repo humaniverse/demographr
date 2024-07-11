@@ -8,6 +8,7 @@ query_urls <-
     ~demog_type, ~id, ~date, ~license, ~query, ~source,
 
     # - Ethnicity -
+    "ethnicity", "ethnicity21_lsoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts021.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "ethnicity", "ethnicity21_ltla21", "29.11.22", "OGLv3", "https://www.ons.gov.uk/visualisations/dvc2203/map/datadownload.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
     "ethnicity", "ethnicity21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts022.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "ethnicity", "ethnicity21_ltla21_ni", "22.09.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-b01.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-ethnicity-tables",

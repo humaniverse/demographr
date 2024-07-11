@@ -79,6 +79,23 @@ NULL
 #' @source \url{https://www.nisra.gov.uk/}
 "ethnicity21_ltla21_ni"
 
+#' Ethnic group data for England and Wales from the 2021 Census (LSOA)
+#' 
+#' A data sets containing Census 2021 ethnic group numbers and percentages for
+#' each Lower Layer Super Output Area in England and Wales.
+#' 
+#' @format A data frame of class "tbl" with 5 variables:
+#' \describe{
+#'   \item{mloa21_code}{LSOA code}
+#'   \item{total_residents}{Total number of residents in the LSOA}
+#'   \item{ethnic_group}{Ethnic group}
+#'   \item{n}{Number of people in the ethnic group}
+#'   \item{prop}{Percentage of people in the ethnic group}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"ethnicity21_lsoa21"
+
 #' Ethnic group data for England and Wales from the 2021 Census (MSOA)
 #' 
 #' A data sets containing Census 2021 ethnic group numbers and percentages for
