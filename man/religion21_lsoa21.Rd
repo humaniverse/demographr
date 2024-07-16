@@ -14,15 +14,31 @@ A data frame of class "tbl" with 5 variables:
 \item{prop}{Percentage of people in the religion}
 ...
 }
+
+A data frame of class "tbl" with 5 variables:
+\describe{
+\item{lgd21_code}{LGD code}
+\item{religion}{Religion}
+\item{count}{Number of people}
+\item{prop}{Percentage of people}
+...
+}
 }
 \source{
 \url{https://ons.gov.uk/}
+
+\url{https://www.nisra.gov.uk/}
 }
 \usage{
+religion21_lsoa21
+
 religion21_lsoa21
 }
 \description{
 A data sets containing Census 2021 religion numbers and percentages for
 each Lower Layer Super Output Area in England and Wales.
+
+A data sets containing Census 2021 religion numbers and percentages for
+each Local Government District in Northern Ireland.
 }
 \keyword{datasets}

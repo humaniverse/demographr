@@ -13,9 +13,14 @@ query_urls <-
     "ethnicity", "ethnicity21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts022.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "ethnicity", "ethnicity21_ltla21_ni", "22.09.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-b01.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-ethnicity-tables",
 
+    # - Disability -
+    "disability", "disability21_lsoa21_ew", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts038.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "disability", "disability21_lgd21_ni", "2021", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-d03.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-health-disability-and-unpaid-care-tables",
+    
     # - Households -
     "population", "age_gender_hsct20_ni", "06.07.23", "OGLv3", "https://www.ninis2.nisra.gov.uk/Download/Population/Population%20Estimates%20Broad%20Age%20Bands%20(administrative%20geographies).ods", "https://www.ninis2.nisra.gov.uk/public/AreaProfileReportViewer.aspx?tabchangeReportName=Investing%20for%20Health?",
     "population", "age_gender_ltla21_ni", "31.05.23", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a08.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-demography-tables-age-and-sex",
+    "population", "age_gender_ltla21_ew", "31.05.23", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts009.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "population", "households_england_wales", "28.06.22", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021",
     "population", "households_northern_ireland", "24.05.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-population-and-household-estimates-for-northern-ireland-tables-24-may-2022.xlsx", "https://www.nisra.gov.uk/publications/census-2021-population-and-household-estimates-for-northern-ireland",
     
@@ -65,7 +70,14 @@ query_urls <-
     "proficiency", "proficiency21_msoa21", "29.11.22", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts029.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     
     # Religion
-    "religion", "religion", "", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts030.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk"
+    "religion", "religion", "", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts030.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "religion", "religion21_lgd21_ni", "", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-b19.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-religion-tables",
+    
+    # Sexual orientation
+    "Sexual orientation", "sexualorientation21_msoa21_ew", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts077.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "Sexual orientation", "sexualorientation21_lgd21_ni", "2021", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-c01.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-sexual-orientation-tables"
+    
+    
   )
 
 usethis::use_data(query_urls, internal = TRUE, overwrite = TRUE)
