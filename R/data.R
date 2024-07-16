@@ -24,6 +24,26 @@ NULL
 #' @source \url{https://www.nisra.gov.uk/}
 "age_gender_hsct20_ni"
 
+#' Age and gender grouped data for England and Wales from 2021 Census
+#' 
+#' A dataset containing Census 2021 age and gender count for each LA in England and Wales
+#' 
+#' @format A data frame of class "tbl" with 11 rows and 11 variables:
+#' \describe{
+#'   \item{ltla21_code}{Local Authority code}
+#'   \item{total_population}{Total population}
+#'   \item{total_female_population}{Total female population}
+#'   \item{total_male_population}{Total male population}
+#'   \item{younger_females}{Count of females aged under 20 years}
+#'   \item{working_age_females}{Count of females aged between 20 and 65}
+#'   \item{older_females}{Count of females aged over 65}
+#'   \item{younger_males}{Count of males aged under 20 years}
+#'   \item{working_age_males}{Count of males aged between 20 and 65}
+#'   \item{older_males}{Count of males aged over 65}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"age_gender21_ltla21_ew"
+
 #' Age and gender grouped data for Northern Ireland from 2021 Census
 #' (Local Government Districts)
 #' 
@@ -47,6 +67,42 @@ NULL
 #' @source \url{https://www.nisra.gov.uk/}
 "age_gender_ltla21_ni"
 
+#' Disability data for Northern Ireland from the 2021 Census (LGD)
+#' 
+#' A data LSOA containing Census 2021 disability numbers and percentages for
+#' each LTLA in England and Wales.
+#' 
+#' @format A data frame of class "tbl":
+#' \describe{
+#'   \item{lgd21_code}{LGD code}
+#'   \item{disability}{Disability status}
+#'   \item{count}{The count of people with the disability status}
+#'   \item{prop}{The percentage of people with the disability status}
+
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"disability21_lgd21_ni"
+
+#' Disability data for England and Wales from the 2021 Census (Lower Super Output
+#' Area)
+#' 
+#' A dataset containing Census 2021 disability numbers and percentages for
+#' each LSOA in England and Wales.
+#' 
+#' @format A data frame of class "tbl":
+#' \describe{
+#'   \item{lsoa21_code}{LSOA code}
+#'   \item{disability}{Disability status}
+#'   \item{n}{The count of people with the disability status}
+#'   \item{total_residents}{Total residents in LSOA}
+#'   \item{prop}{The percentage of people with the disability status}
+
+#'   ...
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"disability21_lsoa21_ew"
+
 #' Ethnic group data for England and Wales from the 2021 Census (Local Authority)
 #' 
 #' A data sets containing Census 2021 ethnic group numbers and percentages for
@@ -62,6 +118,7 @@ NULL
 #' }
 #' @source \url{https://ons.gov.uk/}
 "ethnicity21_ltla21"
+
 
 #' Ethnic group data for Northern Ireland from the 2021 Census (Local Authority)
 #' 
@@ -467,3 +524,52 @@ NULL
 #' }
 #' @source \url{https://ons.gov.uk/}
 "religion21_lsoa21"
+
+#' Religion data for NI from the 2021 Census (LGD)
+#' 
+#' A data sets containing Census 2021 religion numbers and percentages for
+#' each Local Government District in Northern Ireland.
+#' 
+#' @format A data frame of class "tbl" with 5 variables:
+#' \describe{
+#'   \item{lgd21_code}{LGD code}
+#'   \item{religion}{Religion}
+#'   \item{count}{Number of people}
+#'   \item{prop}{Percentage of people}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"religion21_lsoa21"
+
+#' Religion data for NI from the 2021 Census (LGD)
+#' 
+#' A data sets containing Census 2021 sexual orientation numbers and percentages for
+#' each Local Government District in Northern Ireland.
+#' 
+#' @format A data frame of class "tbl" with 4 variables:
+#' \describe{
+#'   \item{lgd21_code}{LGD code}
+#'   \item{sexual_orientation}{Sexual Orientation}
+#'   \item{count}{Number of people}
+#'   \item{prop}{Percentage of people}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"sexualorientation21_lgd21_ni"
+
+#' Religion data for England and Wales from the 2021 Census (MSOA)
+#' 
+#' A data sets containing Census 2021 sexual orientation numbers and percentages for
+#' each MSOA in England and Wales
+#' 
+#' @format A data frame of class "tbl" with 4 variables:
+#' \describe{
+#'   \item{msoa21_code}{MSOA code}
+#'   \item{sexual_orientation}{Sexual Orientation}
+#'   \item{count}{Number of people}
+#'   \item{prop}{Percentage of people}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk/}
+"sexualorientation21_msoa21_ew"
+
