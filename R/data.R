@@ -470,6 +470,24 @@ NULL
 #' @source \url{https://ons.gov.uk/}
 "population21_ltla21"
 
+#' Population in Scotland Councils, 2022 mid year estimates
+#' 
+#' A data set containing 2022 mid year estimate population counts for each 
+#' Council in Scotland by sex, age.
+#' 
+#' @format A data frame of class "tbl" with 32 rows and 95 variables:
+#' \describe{
+#'   \item{ltla19_name}{Local Authority name}
+#'   \item{ltla19_code}{Local Authority code}
+#'   \item{sex}{Sex}
+#'   \item{all_ages}{Total number of people}
+#'   \item{`0`:`90 and over`}{Number of people in each single age group}
+
+#'   ...
+#' }
+#' @source \url{https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/mid-year-population-estimates/mid-2022#:~:text=Of%20the%2032%20council%20areas,and%20Orkney%20Islands%20with%2022%2C020)}
+"population22_ltla19_scotland"
+
 #' Proficiency in English for England and Wales from the 2021 Census (MSOA)
 #' 
 #' A data sets containing Census 2021 proficiency in English numbers and 
