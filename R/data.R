@@ -470,6 +470,42 @@ NULL
 #' @source \url{https://ons.gov.uk/}
 "population21_ltla21"
 
+#' Population estimates in Scotland's Data Zones (2011 codes), as of 2021
+#' 
+#' @format A data frame of class "tbl" with 6,976 rows and 3 variables:
+#' \describe{
+#'   \item{dz11_name}{Data Zone name}
+#'   \item{dz11_code}{Data Zone code}
+#'   \item{total_population}{Number of people}
+#'   ...
+#' }
+#' @source \url{https://statistics.gov.scot/}
+"population21_dz11"
+
+#' Population estimates in Scotland's Intermediate Zones (2011 codes), as of 2021
+#' 
+#' @format A data frame of class "tbl" with 1,279 rows and 3 variables:
+#' \describe{
+#'   \item{iz11_name}{Intermediate Zone name}
+#'   \item{iz11_code}{Intermediate Zone code}
+#'   \item{total_population}{Number of people}
+#'   ...
+#' }
+#' @source \url{https://statistics.gov.scot/}
+"population21_iz11"
+
+#' Population estimates in Scotland's Council Areas (2021 codes), as of 2021
+#' 
+#' @format A data frame of class "tbl" with 32 rows and 3 variables:
+#' \describe{
+#'   \item{ltla21_name}{Intermediate Zone name}
+#'   \item{ltla21_code}{Intermediate Zone code}
+#'   \item{total_population}{Number of people}
+#'   ...
+#' }
+#' @source \url{https://statistics.gov.scot/}
+"population21_ltla21"
+
 #' Population in Scotland Councils, 2022 mid year estimates
 #' 
 #' A data set containing 2022 mid year estimate population counts for each 

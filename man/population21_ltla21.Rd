@@ -12,11 +12,23 @@ A data frame of class "tbl" with 331 rows and 3 variables:
 \item{population}{Number of people}
 ...
 }
+
+A data frame of class "tbl" with 32 rows and 3 variables:
+\describe{
+\item{ltla21_name}{Intermediate Zone name}
+\item{ltla21_code}{Intermediate Zone code}
+\item{total_population}{Number of people}
+...
+}
 }
 \source{
 \url{https://ons.gov.uk/}
+
+\url{https://statistics.gov.scot/}
 }
 \usage{
+population21_ltla21
+
 population21_ltla21
 }
 \description{
