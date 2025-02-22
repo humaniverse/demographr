@@ -28,7 +28,8 @@ raw <- read_excel(file, sheet = 1, skip = 10)
 
 raw <- raw |>
   select(-1) |>
-  slice(-1)
+  slice(-1) |>
+  remove_missing()
 
 names(raw) <- str_remove(names(raw), ": Total")
 
