@@ -12,7 +12,7 @@ load_all(".")
 
 query_url <-
   query_urls |>
-  filter(id == "household_deprivation_lsoa21") |>
+  filter(id == "household_deprivation21_lsoa21") |>
   pull(query)
 
 
