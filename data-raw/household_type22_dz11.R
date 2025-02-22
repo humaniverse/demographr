@@ -34,6 +34,7 @@ names(raw) <- str_remove(names(raw), ": Total")
 
 household_type22_dz11 <-
   raw |>
+  rename(`Whole house` = `Whole house or bungalow`, `Flat or apartment` = `Flat, maisonette or apartment`, `Mobile or temporary structure` = `Caravan or other mobile or temporary structure`) |>
   select(dz11_code = `...2`, total_households = `All occupied households`, !contains(":")) |>
   pivot_longer(cols = -c(dz11_code, total_households), names_to = "type", values_to = "n") |>
   mutate(prop = n / total_households)
