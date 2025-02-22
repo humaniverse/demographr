@@ -29,8 +29,12 @@ query_urls <-
     "deprivation", "household_deprivation21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
 
     # - Household overcrowding -
-    "deprivation", "household_overcrowding21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
-    "deprivation", "household_overcrowding21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "overcrowding", "household_overcrowding21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "overcrowding", "household_overcrowding21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+
+    # - Household tenure -
+    "tenure", "household_tenure21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "tenure", "household_tenure21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     
     # Migration census 2021 data
     "migration", "migration21_msoa21", "21.03.21", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts019.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
