@@ -39,6 +39,7 @@ query_urls <-
     # - Household type -
     "household_type", "household_type21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts044.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "household_type", "household_type21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts044.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_type", "household_type22_dz11", "2022", "OGLv3", "data-raw/scotland/table_2025-02-22_14-58-47.xlsx", "https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/",
     
     # Migration census 2021 data
     "migration", "migration21_msoa21", "21.03.21", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts019.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
