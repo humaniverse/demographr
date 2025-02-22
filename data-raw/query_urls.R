@@ -25,16 +25,20 @@ query_urls <-
     "population", "households_northern_ireland", "24.05.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-population-and-household-estimates-for-northern-ireland-tables-24-may-2022.xlsx", "https://www.nisra.gov.uk/publications/census-2021-population-and-household-estimates-for-northern-ireland",
 
     # - Household deprivation -
-    "deprivation", "household_deprivation21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
-    "deprivation", "household_deprivation21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_deprivation", "household_deprivation21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_deprivation", "household_deprivation21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
 
     # - Household overcrowding -
-    "overcrowding", "household_overcrowding21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
-    "overcrowding", "household_overcrowding21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_overcrowding", "household_overcrowding21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_overcrowding", "household_overcrowding21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
 
     # - Household tenure -
-    "tenure", "household_tenure21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
-    "tenure", "household_tenure21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_tenure", "household_tenure21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_tenure", "household_tenure21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+
+    # - Household type -
+    "household_type", "household_type21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts044.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_type", "household_type21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts044.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     
     # Migration census 2021 data
     "migration", "migration21_msoa21", "21.03.21", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts019.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
