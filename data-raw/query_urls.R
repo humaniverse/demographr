@@ -27,6 +27,8 @@ query_urls <-
     # - Household deprivation -
     "household_deprivation", "household_deprivation21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "household_deprivation", "household_deprivation21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_deprivation", "household_deprivation11_dz11", "2011", "OGLv3", "data-raw/scotland/table_2025-02-24_19-06-10.xlsx", "https://www.scotlandscensus.gov.uk/search-the-census#/search-by",
+    "household_deprivation", "household_deprivation21_sdz21", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=HH_DEPRIVATION", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=HH_DEPRIVATION",
 
     # - Household overcrowding -
     "household_overcrowding", "household_overcrowding21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
