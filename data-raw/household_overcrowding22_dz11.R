@@ -32,11 +32,11 @@ raw <- raw |>
   slice(-1) |>
   remove_missing()
 
-names(raw) <- str_remove(names(raw), " of bedrooms")
+names(raw) <- str_remove(names(raw), "Occupancy rating of bedrooms: ")
 
 household_overcrowding22_dz11 <-
   raw |>
-  select(dz11_code = `...2`, total_households = `All occupied households`, contains("Occupancy")) |>
+  select(dz11_code = `...2`, total_households = `All occupied households`, everything()) |>
   pivot_longer(cols = -c(dz11_code, total_households), names_to = "occupancy_rating", values_to = "n") |>
   mutate(occupancy_rating = case_when(str_detect(occupancy_rating , "\\-2") ~ paste(occupancy_rating, "(overcrowded)"),
                                       str_detect(occupancy_rating , "\\-1") ~ paste(occupancy_rating, "(overcrowded)"),

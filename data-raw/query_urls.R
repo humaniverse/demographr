@@ -32,6 +32,7 @@ query_urls <-
     "household_overcrowding", "household_overcrowding21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "household_overcrowding", "household_overcrowding21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "household_overcrowding", "household_overcrowding22_dz11", "2022", "OGLv3", "data-raw/scotland/table_2025-02-22_19-48-17.xlsx", "https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/",
+    "household_overcrowding", "household_overcrowding21_sdz21", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=OCCUPANCY_RATING_ROOMS_AGG5", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=OCCUPANCY_RATING_ROOMS_AGG5",
 
     # - Household tenure -
     "household_tenure", "household_tenure21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",

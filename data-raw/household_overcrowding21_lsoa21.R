@@ -34,11 +34,11 @@ raw <- read_csv(file.path(tempdir(), "census2021-ts052-lsoa.csv"))
 #--- clean ---------------------------------------------------------------------
 
 names(raw) <- str_remove(names(raw), "Occupancy rating for bedrooms: ")
-names(raw) <- str_remove(names(raw), " of bedrooms")
+names(raw) <- str_remove(names(raw), "Occupancy rating of bedrooms: ")
 
 household_overcrowding21_lsoa21 <-
   raw |>
-  select(lsoa21_code = `geography code`, total_households = `Total: All households`, contains("Occupancy"), -date, -geography) |>
+  select(lsoa21_code = `geography code`, total_households = `Total: All households`, everything(), -date, -geography) |>
   pivot_longer(cols = -c(lsoa21_code, total_households), names_to = "occupancy_rating", values_to = "n") |>
   mutate(occupancy_rating = case_when(str_detect(occupancy_rating , "\\-2") ~ paste(occupancy_rating, "(overcrowded)"),
                                       str_detect(occupancy_rating , "\\-1") ~ paste(occupancy_rating, "(overcrowded)"),
