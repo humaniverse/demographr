@@ -37,7 +37,7 @@ names(raw) <- str_remove(names(raw), "Tenure of household: ")
 
 household_tenure21_oa21 <-
   raw |>
-  select(oa21_code = `geography code`, total_households = `Total: All households`, !contains(":"), -date, -geography) |>
+  select(oa21_code = `geography code`, total_households = `Total: All households`, contains(":"), `Lives rent free`, -date, -geography) |>
   pivot_longer(cols = -c(oa21_code, total_households), names_to = "tenure", values_to = "n") |>
   mutate(prop = n / total_households)
 

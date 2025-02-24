@@ -33,14 +33,7 @@ raw <- raw |>
 
 household_tenure22_dz11 <-
   raw |>
-  rowwise() |>
-  mutate(Owned = sum(`Owned: Owned outright`, `Owned: Owned with a mortgage or loan`),
-         `Shared ownership` = sum(`Owned: Shared ownership (part owned and part rented)`, `Owned: Shared Equity (e.g. LIFT or Help-to-Buy)`),
-         `Social rented` = sum(`Social Rented: Council (LA) or Housing Association/ Registered Social Landlord`),
-         `Private rented` = sum(`Private rented: Total`),
-         `Lives rent free` = sum(`Lives Rent Free`)
-         ) |>
-  select(dz11_code = `...2`, total_households = `All occupied households`, `Owned`, `Shared ownership`, `Social rented`, `Private rented`, `Lives rent free`) |>
+  select(dz11_code = `...2`, total_households = `All occupied households`, !contains("Total")) |>
   pivot_longer(cols = -c(dz11_code, total_households), names_to = "tenure", values_to = "n") |>
   mutate(prop = n / total_households)
 

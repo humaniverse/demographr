@@ -40,6 +40,7 @@ query_urls <-
     "household_tenure", "household_tenure21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "household_tenure", "household_tenure21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "household_tenure", "household_tenure22_dz11", "2022", "OGLv3", "data-raw/scotland/table_2025-02-22_19-23-42.xlsx", "https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/",
+    "household_tenure", "household_tenure21_sdz21", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=HH_TENURE", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=HH_TENURE",
 
     # - Household type -
     "household_type", "household_type21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts044.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
