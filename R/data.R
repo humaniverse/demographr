@@ -205,6 +205,246 @@ NULL
 #' @source \url{https://ons.gov.uk/}
 "households21_ltla21"
 
+#' Deprivation dimensions for Data Zones in Scotland
+#'
+#' A data set containing 2011 estimates of deprivation dimensions for Data Zones in Scotland.
+#'
+#' @format A data frame of class "tbl" with 34,880 rows and 5 variables:
+#' \describe{
+#'   \item{dz11_code}{Data Zone code}
+#'   \item{total_households}{Total number of households in each DZ}
+#'   \item{deprivation_dimensions}{Deprived in dimensions (0 to 4)}
+#'   \item{n}{Number of households per each deprivation dimension}
+#'   \item{prop}{The percentage of households with the deprivation dimension status}
+#' }
+#' @source \url{https://www.scotlandscensus.gov.uk/search-the-census}
+"household_deprivation11_dz11"
+
+#' Deprivation dimensions for Lower Super Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of deprivation dimensions for Lower Super Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 178,360 rows and 5 variables:
+#' \describe{
+#'   \item{lsoa21_code}{Lower Super Output Area code}
+#'   \item{total_households}{Total number of households in each LSOA}
+#'   \item{deprivation_dimensions}{Deprived in dimensions (0 to 4)}
+#'   \item{n}{Number of households per each deprivation dimension}
+#'   \item{prop}{The percentage of households with the deprivation dimension status}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_deprivation21_lsoa21"
+
+#' Deprivation dimensions for Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of deprivation dimensions for Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 944,400 rows and 5 variables:
+#' \describe{
+#'   \item{oa21_code}{Output Area code}
+#'   \item{total_households}{Total number of households in each OA}
+#'   \item{deprivation_dimensions}{Deprived in dimensions (0 to 4)}
+#'   \item{n}{Number of households per each deprivation dimension}
+#'   \item{prop}{The percentage of households with the deprivation dimension status}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_deprivation21_oa21"
+
+#' Deprivation dimensions for Super Data Zones in Northern Ireland
+#'
+#' A data set containing 2021 estimates of deprivation dimensions for Super Data Zones in Northern Ireland.
+#'
+#' @format A data frame of class "tbl" with 4,250 rows and 5 variables:
+#' \describe{
+#'   \item{sdz21_code}{Super Data Zone code}
+#'   \item{total_households}{Total number of households in each SDZ}
+#'   \item{deprivation_dimensions}{Deprived in dimensions (0 to 4)}
+#'   \item{n}{Number of households per each deprivation dimension}
+#'   \item{prop}{The percentage of households with the deprivation dimension status}
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"household_deprivation21_sdz21"
+
+#' Household overcrowding statistics for Data Zones in Scotland
+#'
+#' A data set containing 2022 estimates of household overcrowding for Data Zones in Scotland.
+#'
+#' @format A data frame of class "tbl" with 27,904 rows and 5 variables:
+#' \describe{
+#'   \item{dz11_code}{Data Zone code}
+#'   \item{total_households}{Total number of households in each DZ}
+#'   \item{occupancy_rating}{Occupancy rating}
+#'   \item{n}{Number of households per each occupancy rating}
+#'   \item{prop}{The percentage of households with the specific occupancy rating}
+#' }
+#' @source \url{https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/}
+"household_overcrowding22_dz11"
+
+#' Household overcrowding statistics for Lower Super Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of household overcrowding for Lower Super Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 178,360 rows and 5 variables:
+#' \describe{
+#'   \item{lsoa21_code}{Lower Super Output Area code}
+#'   \item{total_households}{Total number of households in each LSOA}
+#'   \item{occupancy_rating}{Occupancy rating}
+#'   \item{n}{Number of households per each occupancy rating}
+#'   \item{prop}{The percentage of households with the specific occupancy rating}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_overcrowding21_lsoa21"
+
+#' Household overcrowding statistics for Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of household overcrowding for Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 994,440 rows and 5 variables:
+#' \describe{
+#'   \item{oa21_code}{Lower Super Output Area code}
+#'   \item{total_households}{Total number of households in each OA}
+#'   \item{occupancy_rating}{Occupancy rating}
+#'   \item{n}{Number of households per each occupancy rating}
+#'   \item{prop}{The percentage of households with the specific occupancy rating}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_overcrowding21_oa21"
+
+#' Household overcrowding statistics for Super Data Zones in Northern Ireland
+#'
+#' A data set containing 2021 estimates of household overcrowding for Super Data Zones in Northern Ireland.
+#'
+#' @format A data frame of class "tbl" with 4,250 rows and 5 variables:
+#' \describe{
+#'   \item{sdz21_code}{Super Data Zone code}
+#'   \item{total_households}{Total number of households in each SDZ}
+#'   \item{occupancy_rating}{Occupancy rating}
+#'   \item{n}{Number of households per each occupancy rating}
+#'   \item{prop}{The percentage of households with the specific occupancy rating}
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"household_overcrowding21_sdz21"
+
+#' Household tenure statistics for Data Zones in Scotland
+#'
+#' A data set containing 2022 estimates of household tenure for Data Zones in Scotland.
+#'
+#' @format A data frame of class "tbl" with 55,808 rows and 5 variables:
+#' \describe{
+#'   \item{dz11_code}{Data Zone code}
+#'   \item{total_households}{Total number of households in each DZ}
+#'   \item{tenure}{Household tenure type}
+#'   \item{n}{Number of households per each tenure type}
+#'   \item{prop}{The percentage of households with the specific tenure type}
+#' }
+#' @source \url{https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/}
+"household_tenure22_dz11"
+
+#' Household tenure statistics for Lower Super Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of household tenure for Lower Super Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 285,376 rows and 5 variables:
+#' \describe{
+#'   \item{lsoa21_code}{Lower Super Output Area code}
+#'   \item{total_households}{Total number of households in each LSOA}
+#'   \item{tenure}{Household tenure type}
+#'   \item{n}{Number of households per each tenure type}
+#'   \item{prop}{The percentage of households with the specific tenure type}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_tenure21_lsoa21"
+
+#' Household tenure statistics for Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of household tenure for Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 1,511,040 rows and 5 variables:
+#' \describe{
+#'   \item{oa21_code}{Output Area code}
+#'   \item{total_households}{Total number of households in each OA}
+#'   \item{tenure}{Household tenure type}
+#'   \item{n}{Number of households per each tenure type}
+#'   \item{prop}{The percentage of households with the specific tenure type}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_tenure21_oa21"
+
+#' Household tenure statistics for Super Data Zones in Northern Ireland
+#'
+#' A data set containing 2021 estimates of household tenure for Super Data Zones in Northern Ireland.
+#'
+#' @format A data frame of class "tbl" with 9,350 rows and 5 variables:
+#' \describe{
+#'   \item{sdz21_code}{Super Data Zone code}
+#'   \item{total_households}{Total number of households in each SDZ}
+#'   \item{tenure}{Household tenure type}
+#'   \item{n}{Number of households per each tenure type}
+#'   \item{prop}{The percentage of households with the specific tenure type}
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"household_tenure21_sdz21"
+
+#' Household type statistics for Data Zones in Scotland
+#'
+#' A data set containing 2022 estimates of household type for Data Zones in Scotland.
+#'
+#' @format A data frame of class "tbl" with 48,832 rows and 5 variables:
+#' \describe{
+#'   \item{dz11_code}{Data Zone code}
+#'   \item{total_households}{Total number of households in each DZ}
+#'   \item{type}{Household type}
+#'   \item{n}{Number of households per each household type}
+#'   \item{prop}{The percentage of households with the specific household type}
+#' }
+#' @source \url{https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/}
+"household_type22_dz11"
+
+#' Household type statistics for Lower Super Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of household type for Lower Super Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 285,376 rows and 5 variables:
+#' \describe{
+#'   \item{lsoa21_code}{Lower Super Output Area code}
+#'   \item{total_households}{Total number of households in each LSOA}
+#'   \item{type}{Household type}
+#'   \item{n}{Number of households per each household type}
+#'   \item{prop}{The percentage of households with the specific household type}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_type21_lsoa21"
+
+#' Household type statistics for Output Areas in England and Wales
+#'
+#' A data set containing 2021 estimates of household type for Output Areas in England and Wales.
+#'
+#' @format A data frame of class "tbl" with 1,511,040 rows and 5 variables:
+#' \describe{
+#'   \item{oa21_code}{Output Area code}
+#'   \item{total_households}{Total number of households in each OA}
+#'   \item{type}{Household type}
+#'   \item{n}{Number of households per each household type}
+#'   \item{prop}{The percentage of households with the specific household type}
+#' }
+#' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
+"household_type21_oa21"
+
+#' Household type statistics for Super Data Zones in Northern Ireland
+#'
+#' A data set containing 2021 estimates of household type for Super Data Zones in Northern Ireland.
+#'
+#' @format A data frame of class "tbl" with 5,950 rows and 5 variables:
+#' \describe{
+#'   \item{sdz21_code}{Super Data Zone code}
+#'   \item{total_households}{Total number of households in each SDZ}
+#'   \item{type}{Household type}
+#'   \item{n}{Number of households per each household type}
+#'   \item{prop}{The percentage of households with the specific household type}
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"household_type21_sdz21"
+
 #' Scottish Health Board (2019) Population Estimates
 #' 
 #' A data set containing population estimates for NHS Scotland Health Boards 

@@ -23,6 +23,30 @@ query_urls <-
     "population", "age_gender_ltla21_ew", "31.05.23", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts009.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "population", "households_england_wales", "28.06.22", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021",
     "population", "households_northern_ireland", "24.05.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-population-and-household-estimates-for-northern-ireland-tables-24-may-2022.xlsx", "https://www.nisra.gov.uk/publications/census-2021-population-and-household-estimates-for-northern-ireland",
+
+    # - Household deprivation -
+    "household_deprivation", "household_deprivation21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_deprivation", "household_deprivation21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_deprivation", "household_deprivation11_dz11", "2011", "OGLv3", "data-raw/scotland/table_2025-02-24_19-06-10.xlsx", "https://www.scotlandscensus.gov.uk/search-the-census#/search-by",
+    "household_deprivation", "household_deprivation21_sdz21", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=HH_DEPRIVATION", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=HH_DEPRIVATION",
+
+    # - Household overcrowding -
+    "household_overcrowding", "household_overcrowding21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_overcrowding", "household_overcrowding21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts052.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_overcrowding", "household_overcrowding22_dz11", "2022", "OGLv3", "data-raw/scotland/table_2025-02-22_19-48-17.xlsx", "https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/",
+    "household_overcrowding", "household_overcrowding21_sdz21", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=OCCUPANCY_RATING_ROOMS_AGG5", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=OCCUPANCY_RATING_ROOMS_AGG5",
+
+    # - Household tenure -
+    "household_tenure", "household_tenure21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_tenure", "household_tenure21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts054.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_tenure", "household_tenure22_dz11", "2022", "OGLv3", "data-raw/scotland/table_2025-02-22_19-23-42.xlsx", "https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/",
+    "household_tenure", "household_tenure21_sdz21", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=HH_TENURE", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=HH_TENURE",
+
+    # - Household type -
+    "household_type", "household_type21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts044.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_type", "household_type21_oa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts044.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "household_type", "household_type22_dz11", "2022", "OGLv3", "data-raw/scotland/table_2025-02-22_14-58-47.xlsx", "https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/",
+    "household_type", "household_type21_sdz21", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=ACCOMMODATION_TYPE", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=ACCOMMODATION_TYPE",
     
     # Migration census 2021 data
     "migration", "migration21_msoa21", "21.03.21", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts019.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
