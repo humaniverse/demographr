@@ -84,6 +84,23 @@ NULL
 #' @source \url{https://www.nisra.gov.uk/}
 "disability21_lgd21_ni"
 
+#' Disability data for Northern Ireland from the 2021 Census (Super Data Zones)
+#'
+#' A data SDZ containing Census 2021 disability numbers and percentages for
+#' each SDZ in Northern Ireland.
+#'
+#' @format A data frame of class "tbl":
+#' \describe{
+#'   \item{sdz21_code}{SDZ code}
+#'   \item{total_households}{Total number of households in each SDZ}
+#'   \item{disability}{Disability status}
+#'   \item{n}{The count of households with the disability status}
+#'   \item{prop}{The percentage of households with the disability status}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"disability21_sdz21_ni"
+
 #' Disability data for England and Wales from the 2021 Census (Lower Super Output
 #' Area)
 #' 
@@ -102,6 +119,23 @@ NULL
 #' }
 #' @source \url{https://www.nomisweb.co.uk/sources/census_2021_bulk}
 "disability21_lsoa21_ew"
+
+#' Disability data for Scotland from the 2022 Census (Data Zones)
+#'
+#' A data DZ containing Census 2022 disability numbers and percentages for
+#' each DZ in Scotland.
+#'
+#' @format A data frame of class "tbl":
+#' \describe{
+#'   \item{dz11_code}{DZ code}
+#'   \item{total_residents}{Total number of residents in each DZ}
+#'   \item{disability}{Disability status}
+#'   \item{n}{The count of residents with the disability status}
+#'   \item{prop}{The percentage of residents with the disability status}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/}
+"disability22_dz11_scot"
 
 #' Ethnic group data for England and Wales from the 2021 Census (Local Authority)
 #' 
