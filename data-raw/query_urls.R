@@ -15,7 +15,9 @@ query_urls <-
 
     # - Disability -
     "disability", "disability21_lsoa21_ew", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts038.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
+    "disability", "disability22_dz11_scot", "2022", "OGLv3", "data-raw/scotland/table_2025-02-27_11-36-52.xlsx", "https://www.scotlandscensus.gov.uk/scotlands-census-2022-flexible-table-builder/",
     "disability", "disability21_lgd21_ni", "2021", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-d03.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-health-disability-and-unpaid-care-tables",
+    "disability", "disability21_sdz21_ni", "2021", "OGLv3", "https://build.nisra.gov.uk/en/custom/table.csv?d=HOUSEHOLD&v=SDZ21&v=HH_DISABLED_TC2", "https://build.nisra.gov.uk/en/custom/data?d=HOUSEHOLD&v=SDZ21&v=HH_DISABLED_TC2",
     
     # - Households -
     "population", "age_gender_hsct20_ni", "06.07.23", "OGLv3", "https://www.ninis2.nisra.gov.uk/Download/Population/Population%20Estimates%20Broad%20Age%20Bands%20(administrative%20geographies).ods", "https://www.ninis2.nisra.gov.uk/public/AreaProfileReportViewer.aspx?tabchangeReportName=Investing%20for%20Health?",
