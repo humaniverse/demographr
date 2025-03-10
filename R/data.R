@@ -780,6 +780,17 @@ NULL
 #' @source \url{https://statistics.gov.scot/}
 "population21_ltla21"
 
+#' Population in England and Wales Lower Layer Super Output Areas, 2022 mid year estimates
+#' 
+#' @format A data frame of class "tbl" with 25,672 rows and 2 variables:
+#' \describe{
+#'   \item{lsoa21_code}{LSOA code}
+#'   \item{n_people}{Estimated number of people in LSOA}
+#'   ...
+#' }
+#' @source \url{https://ons.gov.uk}
+"population22_lsoa21"
+
 #' Population in Scotland Councils, 2022 mid year estimates
 #' 
 #' A data set containing 2022 mid year estimate population counts for each 
