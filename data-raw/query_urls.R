@@ -25,6 +25,8 @@ query_urls <-
     "population", "age_gender_ltla21_ew", "31.05.23", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts009.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "population", "households_england_wales", "28.06.22", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021",
     "population", "households_northern_ireland", "24.05.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-population-and-household-estimates-for-northern-ireland-tables-24-may-2022.xlsx", "https://www.nisra.gov.uk/publications/census-2021-population-and-household-estimates-for-northern-ireland",
+    "population", "age_gender23_ltla21_ni", "19.09.24", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/2025-05/MYE23_AGE_BANDS_NI_LGD.xlsx", "https://www.nisra.gov.uk/publications/2023-mid-year-population-estimates-northern-ireland-and-estimates-population-aged-85",
+    
 
     # - Household deprivation -
     "household_deprivation", "household_deprivation21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
