@@ -26,7 +26,6 @@ query_urls <-
     "population", "households_england_wales", "28.06.22", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021",
     "population", "households_northern_ireland", "24.05.22", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-population-and-household-estimates-for-northern-ireland-tables-24-may-2022.xlsx", "https://www.nisra.gov.uk/publications/census-2021-population-and-household-estimates-for-northern-ireland",
     "population", "age_gender23_ltla21_ni", "19.09.24", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/2025-05/MYE23_AGE_BANDS_NI_LGD.xlsx", "https://www.nisra.gov.uk/publications/2023-mid-year-population-estimates-northern-ireland-and-estimates-population-aged-85",
-    
 
     # - Household deprivation -
     "household_deprivation", "household_deprivation21_lsoa21", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts011.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
@@ -73,7 +72,8 @@ query_urls <-
     "population", "estimates_hb19", "15.07.22", "OGLv3", "https://www.opendata.nhs.scot/dataset/7f010430-6ce1-4813-b25c-f7f335bdc4dc/resource/27a72cc8-d6d8-430c-8b4f-3109a9ceadb1/download/hb2019_pop_est_15072022.csv", "https://www.opendata.nhs.scot/dataset/population-estimates/resource/27a72cc8-d6d8-430c-8b4f-3109a9ceadb1",
     "population", "estimates22_ltla19_scot", "15.07.22", "OGLv3", "https://www.nrscotland.gov.uk/files//statistics/population-estimates/mid-22/mid-year-pop-est-22-data.xlsx", "https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/mid-year-population-estimates/mid-2022#:~:text=Of%20the%2032%20council%20areas,and%20Orkney%20Islands%20with%2022%2C020)",
     "population", "estimates21_scot", "", "OGLv3", "https://statistics.gov.scot/slice/observations.csv?&dataset=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fpopulation-estimates-2011-datazone-linked-dataset&http%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23refPeriod=http%3A%2F%2Freference.data.gov.uk%2Fid%2Fyear%2F2021&http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fdimension%2Fage=http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fconcept%2Fage%2Fall&http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fdimension%2Fsex=http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fconcept%2Fsex%2Fall", "https://statistics.gov.scot/data/population-estimates-2011-datazone-linked-dataset",
-
+    "population", "estimates21_ni", "21.02.23", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx", "https://www.nisra.gov.uk/publications/census-2021-person-and-household-estimates-data-zones-northern-ireland",
+    
     # - Population estimate OA -
     # East Midlands
     "population", "population20_oa11_em", "16.09.21", "OGLv3", "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/censusoutputareaestimatesintheeastmidlandsregionofengland/mid2020sape23dt10f/sape23dt10fmid2020coaunformattedsyoaestimateseastmidlands.xlsx", "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualsmallareapopulationestimates/mid2020/relateddata?page=1",
@@ -106,8 +106,6 @@ query_urls <-
     # Sexual orientation
     "Sexual orientation", "sexualorientation21_msoa21_ew", "2021", "OGLv3", "https://www.nomisweb.co.uk/output/census/2021/census2021-ts077.zip", "https://www.nomisweb.co.uk/sources/census_2021_bulk",
     "Sexual orientation", "sexualorientation21_lgd21_ni", "2021", "OGLv3", "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-c01.xlsx", "https://www.nisra.gov.uk/publications/census-2021-main-statistics-sexual-orientation-tables"
-    
-    
   )
 
 usethis::use_data(query_urls, internal = TRUE, overwrite = TRUE)

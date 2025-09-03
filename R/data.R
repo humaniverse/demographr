@@ -803,6 +803,42 @@ NULL
 #' @source \url{https://statistics.gov.scot/}
 "population21_ltla21"
 
+#' Usual Resident Population, District Electoral Area, Northern Ireland, based on Census 2021
+#' 
+#' @format A data frame of class "tbl" with 80 rows and 3 variables:
+#' \describe{
+#'   \item{dea14_name}{District Electoral Area name}
+#'   \item{dea14_code}{District Electoral Area code}
+#'   \item{residents}{All usual residents}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/publications/census-2021-person-and-household-estimates-data-zones-northern-ireland}
+"population21_dea14"
+
+#' Usual Resident Population, Local Government District, Northern Ireland, based on Census 2021
+#' 
+#' @format A data frame of class "tbl" with 11 rows and 3 variables:
+#' \describe{
+#'   \item{lgd14_name}{Local Government District name}
+#'   \item{lgd14_code}{Local Government District code}
+#'   \item{residents}{All usual residents}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/publications/census-2021-person-and-household-estimates-data-zones-northern-ireland}
+"population21_lgd14"
+
+#' Usual Resident Population, Super Data Zone, Northern Ireland, based on Census 2021
+#' 
+#' @format A data frame of class "tbl" with 850 rows and 3 variables:
+#' \describe{
+#'   \item{sdz21_name}{Super Data Zone name}
+#'   \item{sdz21_code}{Super Data Zone code}
+#'   \item{residents}{All usual residents}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/publications/census-2021-person-and-household-estimates-data-zones-northern-ireland}
+"population21_sdz21"
+
 #' Population in England and Wales Lower Layer Super Output Areas, 2022 mid year estimates
 #' 
 #' @format A data frame of class "tbl" with 25,672 rows and 2 variables:
