@@ -868,6 +868,45 @@ NULL
 #' @source \url{https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/mid-year-population-estimates/mid-2022#:~:text=Of%20the%2032%20council%20areas,and%20Orkney%20Islands%20with%2022%2C020)}
 "population22_ltla19_scotland"
 
+#' Population in Output Areas, England and Wales, 2022 mid year estimates
+#' 
+#' A data set containing 2022 mid year estimate population counts
+#' 
+#' @format A data frame of class "tbl"::
+#' \describe{
+#'   \item{oa21_code}{Output Area name}
+#'   \item{n_people}{Number of people}
+#'   ...
+#' }
+#' @source \url{https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/censusoutputareapopulationestimatessupportinginformation}
+"population22_oa21_ew"
+
+#' Population in Output Areas, Scotland, 2022 mid year estimates
+#' 
+#' A data set containing 2022 mid year estimate population counts
+#' 
+#' @format A data frame of class "tbl"::
+#' \describe{
+#'   \item{oa22_code}{Output Area code}
+#'   \item{n_people}{Number of people}
+#'   ...
+#' }
+#' @source \url{https://www.nrscotland.gov.uk/publications/2022-census-geography-products/}
+"population22_oa22_s"
+
+#' Population in Data Zones, Northern Ireland, 2021
+#' 
+#' A data set containing 2021 population counts
+#' 
+#' @format A data frame of class "tbl"::
+#' \describe{
+#'   \item{dz21_code}{Data Zone code}
+#'   \item{n_people}{Number of usual residents}
+#'   ...
+#' }
+#' @source \url{https://www.nisra.gov.uk/publications/census-2021-person-and-household-estimates-data-zones-northern-ireland}
+"population21_dz21_ni"
+
 #' Proficiency in English for England and Wales from the 2021 Census (MSOA)
 #' 
 #' A data sets containing Census 2021 proficiency in English numbers and 
